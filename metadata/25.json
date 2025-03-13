@@ -1,0 +1,40 @@
+{
+    "name": "Musical Score #25",
+    "description": "A vibrant musical composition displayed as sheet music on a dark blue background with three staff systems. The design features elegant treble and bass clefs in cyan and magenta, with various musical notes including quarter notes in cyan, half notes in pink, whole notes in purple, and eighth notes in blue, arranged across bar lines to create a visually harmonious musical score.",
+    "image": "<image_folder_ipfs_url>/25.svg",
+    "external_url": "<image_folder_ipfs_url>/25.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Blue"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Musical"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Sheet Music"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Musical Notes"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Clefs"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Cyan, Magenta, Blue, Purple"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Music"
+        }
+    ]
+}

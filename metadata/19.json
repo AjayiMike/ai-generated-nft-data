@@ -1,0 +1,40 @@
+{
+    "name": "Cosmic Space #19",
+    "description": "A captivating cosmic scene depicting a vast starfield against a deep space background, with two vibrant nebulae in purple and blue hues. The composition features three distinct planets: a green terrestrial planet, a larger red planet, and a ringed Saturn-like celestial body rendered in light blue. Tiny white stars of varying sizes scattered throughout create depth in this galactic panorama.",
+    "image": "<image_folder_ipfs_url>/19.svg",
+    "external_url": "<image_folder_ipfs_url>/19.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Space"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Cosmic"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Planets"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Nebulae"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Starfield"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple, Blue, Green, Red"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Radial Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Space Exploration"
+        }
+    ]
+}

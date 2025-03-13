@@ -1,0 +1,28 @@
+{
+    "name": "Concentric Circles #0",
+    "description": "A simple yet striking composition featuring three concentric circles in vibrant colors. The outermost circle is rendered in red with a bold outline, followed by a blue middle circle, and a sunny yellow center, all set against a clean light background.",
+    "image": "<image_folder_ipfs_url>/0.svg",
+    "external_url": "<image_folder_ipfs_url>/0.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Concentric Circles"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Primary Colors"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        }
+    ]
+}

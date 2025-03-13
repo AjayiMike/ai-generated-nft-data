@@ -1,0 +1,28 @@
+{
+    "name": "Simple Shape #1",
+    "description": "A minimalist composition featuring a simple geometric shape in vibrant color against a clean background, emphasizing form and simplicity in design.",
+    "image": "<image_folder_ipfs_url>/1.svg",
+    "external_url": "<image_folder_ipfs_url>/1.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Minimalist"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Geometric Shape"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Vibrant"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        }
+    ]
+}

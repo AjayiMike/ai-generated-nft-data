@@ -1,0 +1,32 @@
+{
+    "name": "Cybernetic Mandala #44",
+    "description": "A fusion of spirituality and technology, this cybernetic mandala features concentric geometric patterns, lotus flower elements, and binary code rings. The design blends digital circuit motifs with sacred geometry, symbolizing the harmony between ancient wisdom and futuristic technology.",
+    "image": "<image_folder_ipfs_url>/44.svg",
+    "external_url": "<image_folder_ipfs_url>/44.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Indigo"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Mandala"
+        },
+        {
+            "trait_type": "Central Element",
+            "value": "Lotus Flower"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Cyan-Magenta"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Digital Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Techno-Spiritual"
+        }
+    ]
+}

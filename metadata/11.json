@@ -1,0 +1,32 @@
+{
+    "name": "Target Rings #11",
+    "description": "A precision-focused design featuring five concentric circles transitioning from dark blue to light blue and red at the center, overlaid with white crosshairs and corner markers, resembling a sophisticated target or scope against a light background.",
+    "image": "<image_folder_ipfs_url>/11.svg",
+    "external_url": "<image_folder_ipfs_url>/11.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Concentric Circles with Crosshairs"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue to Red Gradient"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Target"
+        }
+    ]
+}

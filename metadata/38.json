@@ -1,0 +1,40 @@
+{
+    "name": "Fractal Tree #38",
+    "description": "A luminous fractal tree rendered in progressively lighter green gradient branches against a starry night sky. The tree emerges from dark ground, with recursive branching patterns that grow thinner and brighter toward the tips, culminating in glowing leaf clusters. Yellow fireflies float around the branches, enhancing the magical forest atmosphere, while a large yellow-white moon illuminates the scene from the upper right corner. The tree's detailed fractal structure demonstrates mathematical recursion in nature's growth patterns.",
+    "image": "<image_folder_ipfs_url>/38.svg",
+    "external_url": "<image_folder_ipfs_url>/38.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Night Sky"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Fractal"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Recursive Tree"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Moon"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Fireflies"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Green Gradients on Black"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Glow Effects"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Mathematical Nature"
+        }
+    ]
+}

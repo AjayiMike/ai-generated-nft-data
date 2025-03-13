@@ -1,0 +1,36 @@
+{
+    "name": "QR Code Art #26",
+    "description": "A stylized QR code rendered in neon green against a black background with a subtle grid overlay. The design features the distinctive QR code elements including corner squares with inner patterns, an alignment marker, timing patterns, and randomly distributed data modules, all arranged to resemble a functional yet artistic interpretation of digital encoding with a small circular logo at the center.",
+    "image": "<image_folder_ipfs_url>/26.svg",
+    "external_url": "<image_folder_ipfs_url>/26.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Black with Grid"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Digital"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "QR Code Pattern"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Central Logo"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Neon Green on Black"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Data Encoding"
+        }
+    ]
+}

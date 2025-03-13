@@ -1,0 +1,40 @@
+{
+    "name": "Topographic Map #28",
+    "description": "A detailed topographic map rendered in earth tones on a light cream background. The design features elevation contours of three distinct mountain formations with height markers, winding blue rivers flowing through the terrain, scattered forest clusters represented by small green circles, and a compass rose in the corner. The varied contour lines in shades of green and brown create a realistic representation of a natural landscape from above.",
+    "image": "<image_folder_ipfs_url>/28.svg",
+    "external_url": "<image_folder_ipfs_url>/28.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Cream"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Cartographic"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Topographic Contours"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Rivers"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Elevation Markers"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Earth Tones with Blue Accents"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Cartography"
+        }
+    ]
+}

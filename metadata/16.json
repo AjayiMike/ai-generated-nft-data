@@ -1,0 +1,36 @@
+{
+    "name": "Pixel Landscape #16",
+    "description": "A charming pixel art landscape featuring a simple house with a red base and dark roof, set against purple mountains and a blue sky. The scene includes stylized pixelated trees, clouds, a bright square sun, and an orange-brown ground with a path leading to the house, creating a nostalgic 8-bit gaming aesthetic.",
+    "image": "<image_folder_ipfs_url>/16.svg",
+    "external_url": "<image_folder_ipfs_url>/16.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue Sky"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Pixel Art"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "House"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Mountains and Trees"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue, Purple, Green, Red, Orange"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Rectangles"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Retro Gaming"
+        }
+    ]
+}

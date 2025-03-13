@@ -1,0 +1,40 @@
+{
+    "name": "Circuit Board #36",
+    "description": "A detailed digital circuit board visualization rendered in glowing teal and green tones against a deep forest green background. The design features a central CPU chip connected to a systematic grid of pathways, connection nodes, and electronic components including capacitors and resistors. Colorful LED indicators in red, yellow, and green add points of interest, while subtle white data flow dots simulate information moving through the circuit paths, creating a dynamic technological aesthetic.",
+    "image": "<image_folder_ipfs_url>/36.svg",
+    "external_url": "<image_folder_ipfs_url>/36.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Forest Green"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Technological"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Circuit Board"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "CPU Chip"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Electronic Components"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Teal and Green"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Computing Technology"
+        }
+    ]
+}

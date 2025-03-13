@@ -1,0 +1,40 @@
+{
+    "name": "Soundwave Visualization #42",
+    "description": "A dynamic audio visualization interface featuring multi-colored waveforms and frequency data. The design includes vibrant blue, purple, and pink sound waves flowing across a dark grid background, complemented by a precise frequency spectrum analyzer at the bottom. Digital readouts display time markers and track position, while glowing circular indicators pulse rhythmically. Audio level meters and playback controls complete this immersive representation of sound, combining technical precision with aesthetic appeal to visualize the invisible architecture of audio.",
+    "image": "<image_folder_ipfs_url>/42.svg",
+    "external_url": "<image_folder_ipfs_url>/42.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Grid"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Digital Interface"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Waveforms"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Frequency Bars"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue, Purple, Pink"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Graphics"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Audio Visualization"
+        },
+        {
+            "trait_type": "Feature",
+            "value": "Glow Effects"
+        }
+    ]
+}

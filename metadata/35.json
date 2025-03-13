@@ -1,0 +1,40 @@
+{
+    "name": "Cosmic Nebula #35",
+    "description": "A breathtaking cosmic scene featuring vibrant overlapping nebulae in purple, blue, and pink hues against a deep indigo space background. The composition includes numerous stars of varying sizes scattered throughout, with several larger glowing stars creating focal points. Delicate white dust particles drift through the colorful gas clouds, while a small spiral galaxy appears in the corner, completing this celestial vista that captures the majestic beauty of deep space.",
+    "image": "<image_folder_ipfs_url>/35.svg",
+    "external_url": "<image_folder_ipfs_url>/35.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Space Indigo"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Cosmic"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Colorful Nebulae"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Starfield"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Spiral Galaxy"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple, Blue, Pink"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Radial Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Deep Space"
+        }
+    ]
+}

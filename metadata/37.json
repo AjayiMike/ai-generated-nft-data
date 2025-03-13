@@ -1,0 +1,40 @@
+{
+    "name": "Crystal Formation #37",
+    "description": "A mesmerizing crystalline formation rendered in luminous purple, blue, and orange gradients against a deep space background. The central structure features symmetrical geometric crystal facets with light reflections, surrounded by smaller crystal fragments. Delicate energy rays emanate from the formation in matching colors, while subtle outer circle glows frame the composition. A starfield of white dots scattered throughout the dark indigo-purple background adds depth to this otherworldly mineral formation.",
+    "image": "<image_folder_ipfs_url>/37.svg",
+    "external_url": "<image_folder_ipfs_url>/37.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Space Gradient"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Crystal Formation"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Energy Rays"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Starfield"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple, Blue, Orange"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Gradients and Glow"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Mineral Formation"
+        }
+    ]
+}

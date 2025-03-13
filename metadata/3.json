@@ -1,0 +1,28 @@
+{
+    "name": "Hexagon Gradient #3",
+    "description": "A mesmerizing composition of nested hexagons with a vibrant purple gradient background and contrasting teal and orange inner shapes, creating a harmonious geometric pattern.",
+    "image": "<image_folder_ipfs_url>/3.svg",
+    "external_url": "<image_folder_ipfs_url>/3.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Nested Hexagons"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple Gradient, Teal, Orange"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Gradient"
+        }
+    ]
+}

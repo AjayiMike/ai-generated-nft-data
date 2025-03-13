@@ -1,0 +1,36 @@
+{
+    "name": "Abstract Geometric Composition #48",
+    "description": "A balanced arrangement of colorful geometric shapes including circles, triangles, rectangles, and fine linear elements. Various shapes overlap and interconnect through subtle connecting lines, creating a harmonious spatial relationship enhanced by gradient fills and subtle texture patterns.",
+    "image": "<image_folder_ipfs_url>/48.svg",
+    "external_url": "<image_folder_ipfs_url>/48.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric Abstraction"
+        },
+        {
+            "trait_type": "Primary Elements",
+            "value": "Circles and Rectangles"
+        },
+        {
+            "trait_type": "Secondary Elements",
+            "value": "Triangles"
+        },
+        {
+            "trait_type": "Tertiary Elements",
+            "value": "Connecting Lines"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Multi-Gradient"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Composition"
+        }
+    ]
+}

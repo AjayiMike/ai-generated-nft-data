@@ -1,0 +1,40 @@
+{
+    "name": "Sacred Geometry #40",
+    "description": "A mesmerizing exploration of sacred geometry featuring the Flower of Life pattern, Metatron's Cube, and golden ratio spiral on a dark starry background. Intricate geometric patterns form a harmonious and balanced composition with delicate connecting lines, energy points, and symbolic elements at cardinal points. The design includes hexagons, star hexagrams, and Sanskrit-inspired symbols that reference ancient wisdom traditions, all rendered in a palette of blues, purples, and accents of gold.",
+    "image": "<image_folder_ipfs_url>/40.svg",
+    "external_url": "<image_folder_ipfs_url>/40.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Night Sky"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Sacred Geometry"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Flower of Life"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Metatron's Cube"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue, Purple, Gold"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Geometry"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Ancient Wisdom"
+        },
+        {
+            "trait_type": "Feature",
+            "value": "Golden Ratio Spiral"
+        }
+    ]
+}

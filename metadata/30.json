@@ -1,0 +1,40 @@
+{
+    "name": "Geometric Mosaic #30",
+    "description": "A vibrant geometric mosaic composed of colorful shapes arranged in an 8x8 grid against a dark background. The pattern features squares, triangles, and circles filled with rich gradient colors including red, blue, green, yellow, purple, orange, and cyan. Each shape is outlined with thin black strokes, creating a stained-glass effect with the varied geometric forms and bold color transitions creating a kaleidoscopic visual experience.",
+    "image": "<image_folder_ipfs_url>/30.svg",
+    "external_url": "<image_folder_ipfs_url>/30.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Mosaic Grid"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Mixed Shapes"
+        },
+        {
+            "trait_type": "Pattern",
+            "value": "Grid"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Rainbow Gradients"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Linear Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Stained Glass"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Diamond Layers #5",
+    "description": "A striking composition of nested diamond shapes with a blue gradient outer layer, complemented by purple and green inner diamonds, creating a sense of depth and dimension.",
+    "image": "<image_folder_ipfs_url>/5.svg",
+    "external_url": "<image_folder_ipfs_url>/5.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Nested Diamonds"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue Gradient, Purple, Green"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Linear Gradient"
+        }
+    ]
+}

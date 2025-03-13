@@ -1,0 +1,28 @@
+{
+    "name": "Pink Blossom #7",
+    "description": "A floral-inspired design featuring a central circle surrounded by eight satellite circles in a radial arrangement, all rendered in pink gradient tones against a dark background, resembling a stylized flower in bloom.",
+    "image": "<image_folder_ipfs_url>/7.svg",
+    "external_url": "<image_folder_ipfs_url>/7.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Very Dark Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Radial Circle Pattern"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Pink Gradient"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Radial Gradient"
+        }
+    ]
+}

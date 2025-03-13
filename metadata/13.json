@@ -1,0 +1,36 @@
+{
+    "name": "Red Labyrinth #13",
+    "description": "A mesmerizing maze-like pattern featuring concentric squares and branching paths rendered in red gradient strokes against a clean white background, with a blue circle marking the center point of this intricate labyrinth design.",
+    "image": "<image_folder_ipfs_url>/13.svg",
+    "external_url": "<image_folder_ipfs_url>/13.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "White"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Maze Pattern"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Center Circle"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Red Gradient with Blue Accent"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Linear Gradient"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Labyrinth"
+        }
+    ]
+}

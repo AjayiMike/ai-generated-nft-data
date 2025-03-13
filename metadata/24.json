@@ -1,0 +1,36 @@
+{
+    "name": "Neon Isometric Grid #24",
+    "description": "A captivating 3D isometric grid of eighteen colorful cubes arranged in a staggered pattern against a deep black background. Each cube features three visible faces with vibrant gradient colors: an orange-to-red top face, a pink-to-purple left face, and a blue-to-teal right face, creating a striking geometric pattern with a retro-futuristic aesthetic.",
+    "image": "<image_folder_ipfs_url>/24.svg",
+    "external_url": "<image_folder_ipfs_url>/24.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Black"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Isometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "3D Cubes"
+        },
+        {
+            "trait_type": "Pattern",
+            "value": "Grid"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Neon Gradients"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Linear Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Retro-Futuristic"
+        }
+    ]
+}

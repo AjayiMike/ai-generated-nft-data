@@ -1,0 +1,28 @@
+{
+    "name": "Star Radiance #4",
+    "description": "A radiant star design with a golden gradient fill, complemented by concentric circles at its center in vibrant red and blue, creating a celestial-inspired geometric composition.",
+    "image": "<image_folder_ipfs_url>/4.svg",
+    "external_url": "<image_folder_ipfs_url>/4.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Medium Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Star with Concentric Circles"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Gold Gradient, Red, Blue"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Radial Gradient"
+        }
+    ]
+}

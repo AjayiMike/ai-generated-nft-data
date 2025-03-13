@@ -1,0 +1,40 @@
+{
+    "name": "Pastel Watercolor #27",
+    "description": "A delicate watercolor composition featuring overlapping circular splashes in soft pastel hues of pink, peach, mint green, and lavender on a white background. The artwork is enhanced with a watercolor filter creating organic, flowing edges, complemented by scattered dark ink splatters and a subtle signature mark, evoking the spontaneous beauty of traditional watercolor painting.",
+    "image": "<image_folder_ipfs_url>/27.svg",
+    "external_url": "<image_folder_ipfs_url>/27.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "White"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Watercolor"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Color Splashes"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Ink Splatters"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Signature"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Pastel Pink, Peach, Mint, Lavender"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Filters"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Abstract Watercolor"
+        }
+    ]
+}

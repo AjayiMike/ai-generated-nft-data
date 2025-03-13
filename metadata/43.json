@@ -1,0 +1,40 @@
+{
+    "name": "Watercolor Landscape #43",
+    "description": "A serene watercolor abstract landscape rendered with delicate textures and soft color washes. The composition features a light background with a blue sky gradient transitioning to purple mountains in the distance, followed by green rolling hills in the mid-ground. A tranquil blue lake sits in the center of the scene, surrounded by abstract trees with green foliage and brown trunks. Vibrant flower clusters in pink, purple, and yellow add splashes of color to the foreground, while watercolor splatters and texture overlays throughout create an authentic hand-painted feel. Delicate ink lines provide subtle definition to key elements, completing this peaceful natural scene.",
+    "image": "<image_folder_ipfs_url>/43.svg",
+    "external_url": "https://example.com/nft/43.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Paper Texture"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Watercolor"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Abstract Landscape"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Lake and Trees"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blues, Greens, Purples"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Digital Watercolor"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Nature"
+        },
+        {
+            "trait_type": "Feature",
+            "value": "Flower Clusters"
+        }
+    ]
+}

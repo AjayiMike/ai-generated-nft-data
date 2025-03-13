@@ -1,0 +1,40 @@
+{
+    "name": "Cyberpunk Cityscape #23",
+    "description": "A futuristic cyberpunk cityscape rendered in deep purple and blue tones, featuring illuminated skyscrapers with neon pink and blue outlines against a star-filled night sky. The urban skyline is punctuated by glowing teal and purple windows across various buildings, while a luminous yellow moon hovers in the upper right, completing this atmospheric nocturnal metropolis scene.",
+    "image": "<image_folder_ipfs_url>/23.svg",
+    "external_url": "<image_folder_ipfs_url>/23.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Night Sky Gradient"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Cyberpunk"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "City Skyline"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Moon"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Stars"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple, Blue, Neon"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Futuristic Urban"
+        }
+    ]
+}

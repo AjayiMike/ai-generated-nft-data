@@ -1,0 +1,32 @@
+{
+    "name": "Color Grid #14",
+    "description": "A vibrant grid composition featuring 25 colorful circles arranged in a perfect 5x5 matrix against a black background. Each circle displays a different color from a rainbow palette including reds, oranges, yellows, greens, blues, and purples, creating a playful yet organized color spectrum display.",
+    "image": "<image_folder_ipfs_url>/14.svg",
+    "external_url": "<image_folder_ipfs_url>/14.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Circle Grid"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Rainbow Spectrum"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Color Matrix"
+        }
+    ]
+}

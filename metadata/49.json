@@ -1,0 +1,40 @@
+{
+    "name": "Futuristic Cityscape #49",
+    "description": "A neon-lit sci-fi metropolis with sleek skyscrapers, flying vehicles, and an energy core pulsing in the distance. Set against a deep purple-blue night sky with stars and a moon, the cityscape features interconnected buildings with glowing outlines, holographic billboards, and energy transfer beams, creating an immersive vision of a technologically advanced urban future.",
+    "image": "<image_folder_ipfs_url>/49.svg",
+    "external_url": "<image_folder_ipfs_url>/49.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Night Sky"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Cyberpunk"
+        },
+        {
+            "trait_type": "Primary Elements",
+            "value": "Skyscrapers"
+        },
+        {
+            "trait_type": "Secondary Elements",
+            "value": "Flying Vehicles"
+        },
+        {
+            "trait_type": "Tertiary Elements",
+            "value": "Energy Core"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Neon on Dark"
+        },
+        {
+            "trait_type": "Lighting",
+            "value": "Glow Effects"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Futuristic Urban"
+        }
+    ]
+}

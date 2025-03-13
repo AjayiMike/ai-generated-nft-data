@@ -1,0 +1,28 @@
+{
+    "name": "Checkered Circles #9",
+    "description": "A geometric composition featuring a blue checkered pattern square with three concentric circles in pink, red, and orange tones, creating a striking contrast of shapes and colors against a light background.",
+    "image": "<image_folder_ipfs_url>/9.svg",
+    "external_url": "<image_folder_ipfs_url>/9.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "White"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Checkered Pattern with Concentric Circles"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue, Pink, Red, Orange"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Pattern Fill"
+        }
+    ]
+}

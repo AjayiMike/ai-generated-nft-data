@@ -1,0 +1,36 @@
+{
+    "name": "Digital Ecosystem #47",
+    "description": "A vibrant technological ecosystem depicting interconnected digital organisms, bioluminescent data flows, and synthetic plants. This living digital environment visualizes a symbiotic network where data and energy flow through cellular structures and technological flora, creating a harmonious digital biosphere.",
+    "image": "<image_folder_ipfs_url>/47.svg",
+    "external_url": "<image_folder_ipfs_url>/47.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Blue Digital Space"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Bio-Digital Art"
+        },
+        {
+            "trait_type": "Primary Elements",
+            "value": "Digital Organisms"
+        },
+        {
+            "trait_type": "Secondary Elements",
+            "value": "Tech Flora"
+        },
+        {
+            "trait_type": "Tertiary Elements",
+            "value": "Data Flow River"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Cyan-Purple-Green-Orange"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Digital Biology"
+        }
+    ]
+}

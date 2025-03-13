@@ -1,0 +1,40 @@
+{
+    "name": "Retro Sunset #15",
+    "description": "A nostalgic retrowave-inspired landscape featuring a vibrant sunset with red-orange gradient sun against a purple-blue sky. The composition includes a dark mountain silhouette on the horizon and a classic grid perspective extending into the distance, creating the iconic synthwave aesthetic popular in 1980s digital art.",
+    "image": "<image_folder_ipfs_url>/15.svg",
+    "external_url": "<image_folder_ipfs_url>/15.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Blue Gradient"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Retrowave"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Sunset"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Grid Perspective"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Mountain Silhouette"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple, Pink, Orange"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "1980s Digital Aesthetic"
+        }
+    ]
+}

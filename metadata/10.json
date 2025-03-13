@@ -1,0 +1,28 @@
+{
+    "name": "Solar Burst #10",
+    "description": "A dynamic starburst design featuring radiating orange gradient rays in multiple layers, complemented by yellow stroke outlines and a bold red circle at the center, creating a powerful sun-like explosion against a dark background.",
+    "image": "<image_folder_ipfs_url>/10.svg",
+    "external_url": "<image_folder_ipfs_url>/10.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Starburst with Central Circle"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Orange Gradient, Yellow, Red"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Radial Gradient"
+        }
+    ]
+}

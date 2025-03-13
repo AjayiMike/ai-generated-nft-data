@@ -1,0 +1,40 @@
+{
+    "name": "Circuit Board #18",
+    "description": "A detailed circuit board design featuring a grid of cyan trace lines on a dark background, with numerous green connection points at intersections. The layout includes three blue integrated circuit chips of varying sizes, creating a technical and systematic pattern reminiscent of computer hardware architecture.",
+    "image": "<image_folder_ipfs_url>/18.svg",
+    "external_url": "<image_folder_ipfs_url>/18.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Technical"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Circuit Board"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "IC Chips"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Connection Points"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Cyan, Green, Blue"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Technology"
+        }
+    ]
+}

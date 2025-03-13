@@ -1,0 +1,36 @@
+{
+    "name": "Abstract Composition #17",
+    "description": "A dynamic abstract composition featuring overlapping geometric shapes with vibrant gradients on a dark background. The design includes a red circle, blue rectangle, and green polygon with smaller yellow, purple, and teal accent circles. White intersecting lines create a structural grid that anchors the composition, while the semi-transparent elements create rich color interactions where they overlap.",
+    "image": "<image_folder_ipfs_url>/17.svg",
+    "external_url": "<image_folder_ipfs_url>/17.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Abstract"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Overlapping Shapes"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Grid Lines"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Multi-Colored Gradients"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Transparency"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Geometric Abstraction"
+        }
+    ]
+}

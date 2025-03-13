@@ -1,0 +1,36 @@
+{
+    "name": "Sacred Geometry Circle #20",
+    "description": "A mesmerizing sacred geometry design featuring multiple concentric circles, radial lines, and rotated squares set against a deep navy background. The golden orange lines create a harmonious pattern reminiscent of ancient sacred symbols and mandalas, with decorative elements at key intersections.",
+    "image": "<image_folder_ipfs_url>/20.svg",
+    "external_url": "<image_folder_ipfs_url>/20.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Navy"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Sacred Geometry"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Concentric Circles"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Rotated Squares"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Orange-Gold"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Spiritual"
+        }
+    ]
+}

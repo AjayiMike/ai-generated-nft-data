@@ -1,0 +1,36 @@
+{
+    "name": "Purple Labyrinth #34",
+    "description": "An intricate purple labyrinth set against a deep black background, featuring complex maze-like paths with a glowing purple outline. The design includes a start point marked in teal and an end point in pink, with a faint solution path and decorative glow effects that enhance the mystical atmosphere of this challenging puzzle.",
+    "image": "<image_folder_ipfs_url>/34.svg",
+    "external_url": "<image_folder_ipfs_url>/34.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Labyrinth"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Maze"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Solution Path"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple-Teal-Pink"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Puzzle"
+        }
+    ]
+}

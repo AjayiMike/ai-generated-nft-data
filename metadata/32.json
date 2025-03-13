@@ -1,0 +1,40 @@
+{
+    "name": "Technical Blueprint #32",
+    "description": "A detailed engineering blueprint rendered in luminous cyan and blue lines against a deep navy background. The technical drawing depicts a mechanical mounting plate with precise dimensions, featuring a central hub with concentric circles, corner mounting holes, and complete specification details. The design includes measurement annotations, tolerance information, material specifications, and a formal title block with part number and designer information, replicating the exacting nature of professional engineering documentation.",
+    "image": "<image_folder_ipfs_url>/32.svg",
+    "external_url": "<image_folder_ipfs_url>/32.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Navy"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Technical"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Engineering Blueprint"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Technical Annotations"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Specification Details"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blueprint Blue"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Line Drawing"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Engineering Design"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Wave Patterns #39",
+    "description": "A harmonious composition of colorful intersecting wave patterns rendered in vibrant gradients against a deep blue background. The design features horizontal waves in blue, purple, magenta, pink, and gold, crossed by vertical undulating lines that create a rhythmic grid. White glowing nodes mark wave intersections with subtle circular halos in matching colors, while a central focal point radiates from the middle of the composition. The overall effect creates a sense of musical harmony and fluid movement through space.",
+    "image": "<image_folder_ipfs_url>/39.svg",
+    "external_url": "<image_folder_ipfs_url>/39.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Blue"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Abstract"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Wave Patterns"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Intersection Nodes"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Central Focus Point"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue, Purple, Magenta, Pink, Gold"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Harmonic Waves"
+        }
+    ]
+}

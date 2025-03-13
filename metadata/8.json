@@ -1,0 +1,28 @@
+{
+    "name": "Blue Waves #8",
+    "description": "A mesmerizing pattern of five parallel wavy lines rendered in blue gradient tones against a dark background, creating a sense of fluid motion and oceanic rhythm.",
+    "image": "<image_folder_ipfs_url>/8.svg",
+    "external_url": "<image_folder_ipfs_url>/8.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Abstract"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Wave Pattern"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue Gradient"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Linear Gradient Stroke"
+        }
+    ]
+}

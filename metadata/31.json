@@ -1,0 +1,40 @@
+{
+    "name": "Digital Network #31",
+    "description": "A futuristic hexagonal network visualization rendered in glowing cyan and blue tones against a deep navy background. The design features a structured grid of interconnected hexagons with highlighted paths between key nodes, creating a circuit-like pattern. A central hexagon emits a radiant cyan glow that spreads outward, while selected hexagons are filled with medium blue, suggesting active nodes within this technological network structure.",
+    "image": "<image_folder_ipfs_url>/31.svg",
+    "external_url": "<image_folder_ipfs_url>/31.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Navy"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Technological"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Hexagonal Grid"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Network Connections"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Central Glow"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Cyan and Blue"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Digital Network"
+        }
+    ]
+}

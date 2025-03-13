@@ -1,0 +1,40 @@
+{
+    "name": "Northern Lights #33",
+    "description": "A mesmerizing aurora borealis scene featuring vibrant waves of green, blue, and purple lights dancing across a deep night sky. The celestial display is rendered with glowing, semi-transparent gradients that shimmer above a dark mountain silhouette. Small white stars of varying sizes dot the rich navy background, while subtle reflections of the colorful aurora ripple across what appears to be a still lake surface at the base of the mountains, creating a serene northern landscape.",
+    "image": "<image_folder_ipfs_url>/33.svg",
+    "external_url": "<image_folder_ipfs_url>/33.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Deep Night Sky"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Nature Scene"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Aurora Borealis"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Mountain Silhouette"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Stars"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Green, Blue, Purple"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Gradients and Glow"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Northern Landscape"
+        }
+    ]
+}

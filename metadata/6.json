@@ -1,0 +1,28 @@
+{
+    "name": "Concentric Spectrum #6",
+    "description": "A hypnotic design featuring five concentric circles rendered with a vibrant rainbow gradient stroke, creating a mesmerizing ripple effect against a dark background.",
+    "image": "<image_folder_ipfs_url>/6.svg",
+    "external_url": "<image_folder_ipfs_url>/6.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Minimalist"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Concentric Circles"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Red-Yellow-Green Gradient"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Linear Gradient Stroke"
+        }
+    ]
+}

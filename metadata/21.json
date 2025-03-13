@@ -1,0 +1,36 @@
+{
+    "name": "Neural Network #21",
+    "description": "A visual representation of a neural network with four distinct layers: an input layer (4 nodes), two hidden layers (3 and 4 nodes respectively), and an output layer (2 nodes). Blue nodes are connected by lighter blue lines, with an active path highlighted in orange, tracing signal propagation through the network against a dark background.",
+    "image": "<image_folder_ipfs_url>/21.svg",
+    "external_url": "<image_folder_ipfs_url>/21.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Technical"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Neural Network"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Active Path"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue with Orange Highlight"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Artificial Intelligence"
+        }
+    ]
+}

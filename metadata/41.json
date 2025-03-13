@@ -1,0 +1,40 @@
+{
+    "name": "Retro Landscape #41",
+    "description": "A nostalgic pixel art landscape reminiscent of early 8-bit video games. The scene features a purple gradient sky filled with pixel stars of varying sizes, a bright square sun/moon, and layered mountains creating depth. The foreground includes pixel-textured ground, distinctly purple buildings with glowing windows, stylized green trees, and a central pixel character walking along a path. The entire piece is enhanced with scanlines for an authentic retro CRT monitor effect, evoking the golden era of early computer graphics and gaming.",
+    "image": "<image_folder_ipfs_url>/41.svg",
+    "external_url": "<image_folder_ipfs_url>/41.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Purple Gradient Sky"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Pixel Art"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Retro Landscape"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Pixel Character"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple, Green, Yellow"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "8-bit Style"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Vintage Gaming"
+        },
+        {
+            "trait_type": "Feature",
+            "value": "Scanlines Effect"
+        }
+    ]
+}

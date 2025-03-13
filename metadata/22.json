@@ -1,0 +1,36 @@
+{
+    "name": "DNA Helix #22",
+    "description": "An elegant scientific illustration depicting a DNA double helix structure with red and blue gradient backbones connected by alternating colored base pairs. The spiral strands twist gracefully through the center of the composition against a light cream background with subtle circular patterns, representing the fundamental building blocks of life.",
+    "image": "<image_folder_ipfs_url>/22.svg",
+    "external_url": "<image_folder_ipfs_url>/22.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Cream"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Scientific"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "DNA Double Helix"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Base Pairs"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Red and Blue Gradients"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Biology"
+        }
+    ]
+}

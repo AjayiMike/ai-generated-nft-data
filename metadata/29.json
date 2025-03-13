@@ -1,0 +1,40 @@
+{
+    "name": "Crypto Icons #29",
+    "description": "A sleek cryptocurrency visualization featuring glowing icons of Ethereum (blue), Bitcoin (orange), and Dogecoin (gold) against a dark background with a circuit board grid pattern. The design includes three stylized price charts at the bottom showing the relative performance of each cryptocurrency, while decorative binary code in the corners adds a digital aesthetic to this financial technology themed composition.",
+    "image": "<image_folder_ipfs_url>/29.svg",
+    "external_url": "<image_folder_ipfs_url>/29.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark with Circuit Pattern"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Tech-Financial"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Cryptocurrency Icons"
+        },
+        {
+            "trait_type": "Secondary Element",
+            "value": "Price Charts"
+        },
+        {
+            "trait_type": "Tertiary Element",
+            "value": "Binary Code"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Dark with Blue, Orange, Gold Accents"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Glow Effect"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Cryptocurrency"
+        }
+    ]
+}

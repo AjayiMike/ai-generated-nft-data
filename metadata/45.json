@@ -1,0 +1,32 @@
+{
+    "name": "Quantum Particle Dance #45",
+    "description": "An abstract visualization of quantum physics, featuring wave functions, particle trails, and probability clouds. This artwork represents concepts like wave-particle duality, quantum entanglement, and the uncertainty principle through vibrant flowing lines and glowing particles across a deep cosmic background.",
+    "image": "<image_folder_ipfs_url>/45.svg",
+    "external_url": "<image_folder_ipfs_url>/45.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Quantum Field"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Abstract Scientific"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Wave Functions"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Cyan-Magenta-White"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Quantum Physics"
+        }
+    ]
+}

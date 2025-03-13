@@ -1,0 +1,32 @@
+{
+    "name": "Hypercube #12",
+    "description": "A three-dimensional geometric composition depicting a tesseract-like structure with four purple gradient cubes positioned at the corners and a central green gradient cube, all connected by gray lines to create a hypercube effect against a dark background.",
+    "image": "<image_folder_ipfs_url>/12.svg",
+    "external_url": "<image_folder_ipfs_url>/12.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "3D Cube Structure"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Purple and Green Gradients"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art with Linear Gradients"
+        },
+        {
+            "trait_type": "Theme",
+            "value": "Dimensional"
+        }
+    ]
+}

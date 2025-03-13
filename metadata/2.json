@@ -1,0 +1,28 @@
+{
+    "name": "Nested Triangles #2",
+    "description": "A geometric composition featuring a series of nested triangles in vibrant colors, creating a sense of depth and hierarchy through layered shapes.",
+    "image": "<image_folder_ipfs_url>/2.svg",
+    "external_url": "<image_folder_ipfs_url>/2.svg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Light Gray"
+        },
+        {
+            "trait_type": "Style",
+            "value": "Geometric"
+        },
+        {
+            "trait_type": "Main Element",
+            "value": "Nested Triangles"
+        },
+        {
+            "trait_type": "Color Scheme",
+            "value": "Blue, Red, Green"
+        },
+        {
+            "trait_type": "Technique",
+            "value": "Vector Art"
+        }
+    ]
+}
