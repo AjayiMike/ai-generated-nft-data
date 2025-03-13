@@ -1,0 +1,137 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#191919" />
+  
+  <defs>
+    <!-- Colorful gradients -->
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#990000;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0000ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000099;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#009900;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="yellowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffff00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#999900;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff00ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#990099;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9900;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#996600;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="cyanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#009999;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Mosaic tiles -->
+  <g stroke="#191919" stroke-width="2">
+    <!-- Row 1 -->
+    <rect x="50" y="50" width="50" height="50" fill="url(#redGradient)" />
+    <rect x="100" y="50" width="50" height="50" fill="url(#blueGradient)" />
+    <rect x="150" y="50" width="50" height="50" fill="url(#greenGradient)" />
+    <rect x="200" y="50" width="50" height="50" fill="url(#yellowGradient)" />
+    <rect x="250" y="50" width="50" height="50" fill="url(#purpleGradient)" />
+    <rect x="300" y="50" width="50" height="50" fill="url(#orangeGradient)" />
+    <rect x="350" y="50" width="50" height="50" fill="url(#cyanGradient)" />
+    <rect x="400" y="50" width="50" height="50" fill="url(#redGradient)" />
+    
+    <!-- Row 2 -->
+    <rect x="50" y="100" width="50" height="50" fill="url(#cyanGradient)" />
+    
+    <polygon points="150,100 200,100 175,150" fill="url(#orangeGradient)" />
+    <polygon points="200,100 250,100 225,150" fill="url(#cyanGradient)" />
+    <polygon points="250,100 300,100 275,150" fill="url(#yellowGradient)" />
+    <polygon points="300,100 350,100 325,150" fill="url(#purpleGradient)" />
+    
+    <rect x="350" y="100" width="50" height="50" fill="url(#greenGradient)" />
+    <rect x="400" y="100" width="50" height="50" fill="url(#blueGradient)" />
+    
+    <!-- Row 3 -->
+    <rect x="50" y="150" width="50" height="50" fill="url(#blueGradient)" />
+    
+    <polygon points="100,150 100,200 150,175" fill="url(#redGradient)" />
+    <polygon points="100,200 100,250 150,225" fill="url(#yellowGradient)" />
+    
+    <circle cx="225" cy="175" r="25" fill="url(#redGradient)" />
+    <circle cx="275" cy="175" r="25" fill="url(#greenGradient)" />
+    <circle cx="325" cy="175" r="25" fill="url(#blueGradient)" />
+    
+    <rect x="350" y="150" width="50" height="50" fill="url(#purpleGradient)" />
+    <rect x="400" y="150" width="50" height="50" fill="url(#yellowGradient)" />
+    
+    <!-- Row 4 -->
+    <rect x="50" y="200" width="50" height="50" fill="url(#purpleGradient)" />
+    
+    <circle cx="175" cy="225" r="25" fill="url(#cyanGradient)" />
+    
+    <rect x="200" y="200" width="50" height="50" fill="url(#orangeGradient)" />
+    <rect x="250" y="200" width="50" height="50" fill="url(#redGradient)" />
+    <rect x="300" y="200" width="50" height="50" fill="url(#greenGradient)" />
+    
+    <polygon points="350,200 400,200 375,250" fill="url(#blueGradient)" />
+    <polygon points="400,200 450,200 425,250" fill="url(#redGradient)" />
+    
+    <!-- Row 5 -->
+    <rect x="50" y="250" width="50" height="50" fill="url(#greenGradient)" />
+    <rect x="100" y="250" width="50" height="50" fill="url(#orangeGradient)" />
+    
+    <polygon points="150,250 150,300 200,275" fill="url(#blueGradient)" />
+    <polygon points="150,300 150,350 200,325" fill="url(#yellowGradient)" />
+    
+    <rect x="200" y="250" width="50" height="50" fill="url(#cyanGradient)" />
+    <rect x="250" y="250" width="50" height="50" fill="url(#purpleGradient)" />
+    <rect x="300" y="250" width="50" height="50" fill="url(#redGradient)" />
+    
+    <circle cx="375" cy="275" r="25" fill="url(#orangeGradient)" />
+    <circle cx="425" cy="275" r="25" fill="url(#greenGradient)" />
+    
+    <!-- Row 6 -->
+    <rect x="50" y="300" width="50" height="50" fill="url(#yellowGradient)" />
+    <rect x="100" y="300" width="50" height="50" fill="url(#redGradient)" />
+    
+    <circle cx="225" cy="325" r="25" fill="url(#purpleGradient)" />
+    
+    <polygon points="250,300 300,300 275,350" fill="url(#blueGradient)" />
+    <polygon points="300,300 350,300 325,350" fill="url(#yellowGradient)" />
+    <polygon points="350,300 400,300 375,350" fill="url(#cyanGradient)" />
+    <polygon points="400,300 450,300 425,350" fill="url(#orangeGradient)" />
+    
+    <!-- Row 7 -->
+    <rect x="50" y="350" width="50" height="50" fill="url(#orangeGradient)" />
+    <rect x="100" y="350" width="50" height="50" fill="url(#cyanGradient)" />
+    
+    <polygon points="150,350 200,350 175,400" fill="url(#redGradient)" />
+    <polygon points="200,350 250,350 225,400" fill="url(#greenGradient)" />
+    
+    <circle cx="275" cy="375" r="25" fill="url(#yellowGradient)" />
+    <circle cx="325" cy="375" r="25" fill="url(#purpleGradient)" />
+    <circle cx="375" cy="375" r="25" fill="url(#blueGradient)" />
+    <circle cx="425" cy="375" r="25" fill="url(#redGradient)" />
+    
+    <!-- Row 8 -->
+    <rect x="50" y="400" width="50" height="50" fill="url(#blueGradient)" />
+    <rect x="100" y="400" width="50" height="50" fill="url(#greenGradient)" />
+    <rect x="150" y="400" width="50" height="50" fill="url(#purpleGradient)" />
+    <rect x="200" y="400" width="50" height="50" fill="url(#orangeGradient)" />
+    <rect x="250" y="400" width="50" height="50" fill="url(#cyanGradient)" />
+    <rect x="300" y="400" width="50" height="50" fill="url(#redGradient)" />
+    <rect x="350" y="400" width="50" height="50" fill="url(#yellowGradient)" />
+    <rect x="400" y="400" width="50" height="50" fill="url(#greenGradient)" />
+  </g>
+</svg> 

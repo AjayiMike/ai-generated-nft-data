@@ -1,0 +1,196 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#111122" />
+    </linearGradient>
+    
+    <!-- Glow effects -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bgGradient)" />
+  
+  <!-- Central circle and patterns -->
+  <g transform="translate(250, 250)">
+    <!-- Outer circles -->
+    <circle r="200" fill="none" stroke="#334455" stroke-width="0.5" opacity="0.3" />
+    <circle r="180" fill="none" stroke="#334455" stroke-width="0.5" opacity="0.3" />
+    <circle r="160" fill="none" stroke="#334455" stroke-width="0.5" opacity="0.3" />
+    <circle r="140" fill="none" stroke="#334455" stroke-width="0.5" opacity="0.3" />
+    
+    <!-- Flower of Life pattern - Layer 1 -->
+    <g stroke="#6688aa" stroke-width="0.8" fill="none" opacity="0.6">
+      <circle r="40" />
+      <circle cx="0" cy="-70" r="40" />
+      <circle cx="60.62" cy="-35" r="40" />
+      <circle cx="60.62" cy="35" r="40" />
+      <circle cx="0" cy="70" r="40" />
+      <circle cx="-60.62" cy="35" r="40" />
+      <circle cx="-60.62" cy="-35" r="40" />
+    </g>
+    
+    <!-- Flower of Life pattern - Layer 2 -->
+    <g stroke="#6688aa" stroke-width="0.5" fill="none" opacity="0.4">
+      <circle cx="0" cy="-140" r="40" />
+      <circle cx="121.24" cy="-70" r="40" />
+      <circle cx="121.24" cy="70" r="40" />
+      <circle cx="0" cy="140" r="40" />
+      <circle cx="-121.24" cy="70" r="40" />
+      <circle cx="-121.24" cy="-70" r="40" />
+      
+      <circle cx="60.62" cy="-105" r="40" />
+      <circle cx="105" cy="-105" r="40" />
+      <circle cx="105" cy="-35" r="40" />
+      <circle cx="121.24" cy="0" r="40" />
+      <circle cx="105" cy="35" r="40" />
+      <circle cx="105" cy="105" r="40" />
+      <circle cx="60.62" cy="105" r="40" />
+      <circle cx="0" cy="120" r="40" />
+      <circle cx="-60.62" cy="105" r="40" />
+      <circle cx="-105" cy="105" r="40" />
+      <circle cx="-105" cy="35" r="40" />
+      <circle cx="-121.24" cy="0" r="40" />
+      <circle cx="-105" cy="-35" r="40" />
+      <circle cx="-105" cy="-105" r="40" />
+      <circle cx="-60.62" cy="-105" r="40" />
+    </g>
+    
+    <!-- Inner geometric shapes -->
+    <g fill="none" stroke="#aaccff" stroke-width="0.6" opacity="0.7">
+      <!-- Hexagon -->
+      <path d="M0,-80 L69.28,-40 L69.28,40 L0,80 L-69.28,40 L-69.28,-40 Z" />
+      
+      <!-- Star hexagram (Star of David) -->
+      <path d="M0,-60 L52,-30 L52,30 L0,60 L-52,30 L-52,-30 Z" stroke="#ffaacc" />
+      <path d="M0,-30 L52,0 L0,30 L-52,0 Z" stroke="#ffaacc" />
+      
+      <!-- Inner hexagon with rotated orientation -->
+      <path d="M0,-30 L26,-15 L26,15 L0,30 L-26,15 L-26,-15 Z" transform="rotate(90)" stroke="#aaffcc" />
+    </g>
+    
+    <!-- Golden ratio spiral approximation -->
+    <path d="M0,0 
+             A5,5 0 0,1 5,5 
+             A8,8 0 0,1 -3,13 
+             A13,13 0 0,1 -16,0 
+             A21,21 0 0,1 0,-21 
+             A34,34 0 0,1 34,13 
+             A55,55 0 0,1 -21,68"
+          fill="none" stroke="#ffcc55" stroke-width="0.8" opacity="0.7" />
+    
+    <!-- Sacred geometry lines -->
+    <g stroke="#ffffff" stroke-width="0.3" opacity="0.5">
+      <line x1="0" y1="-200" x2="0" y2="200" />
+      <line x1="-200" y1="0" x2="200" y2="0" />
+      <line x1="-141.42" y1="-141.42" x2="141.42" y2="141.42" />
+      <line x1="141.42" y1="-141.42" x2="-141.42" y2="141.42" />
+      
+      <line x1="-173.21" y1="-100" x2="173.21" y2="100" />
+      <line x1="173.21" y1="-100" x2="-173.21" y2="100" />
+      <line x1="-100" y1="-173.21" x2="100" y2="173.21" />
+      <line x1="100" y1="-173.21" x2="-100" y2="173.21" />
+    </g>
+    
+    <!-- Metatron's Cube -->
+    <g stroke="#aaaadd" stroke-width="0.4" opacity="0.6">
+      <!-- Connecting lines -->
+      <line x1="0" y1="-70" x2="60.62" y2="-35" />
+      <line x1="0" y1="-70" x2="60.62" y2="35" />
+      <line x1="0" y1="-70" x2="0" y2="70" />
+      <line x1="0" y1="-70" x2="-60.62" y2="35" />
+      <line x1="0" y1="-70" x2="-60.62" y2="-35" />
+      
+      <line x1="60.62" y1="-35" x2="60.62" y2="35" />
+      <line x1="60.62" y1="-35" x2="0" y2="70" />
+      <line x1="60.62" y1="-35" x2="-60.62" y2="35" />
+      <line x1="60.62" y1="-35" x2="-60.62" y2="-35" />
+      
+      <line x1="60.62" y1="35" x2="0" y2="70" />
+      <line x1="60.62" y1="35" x2="-60.62" y2="35" />
+      <line x1="60.62" y1="35" x2="-60.62" y2="-35" />
+      
+      <line x1="0" y1="70" x2="-60.62" y2="35" />
+      <line x1="0" y1="70" x2="-60.62" y2="-35" />
+      
+      <line x1="-60.62" y1="35" x2="-60.62" y2="-35" />
+    </g>
+    
+    <!-- Energy points at vertices -->
+    <g filter="url(#glow)">
+      <circle cy="-70" r="2" fill="#ffffff" opacity="0.8" />
+      <circle cx="60.62" cy="-35" r="2" fill="#ffffff" opacity="0.8" />
+      <circle cx="60.62" cy="35" r="2" fill="#ffffff" opacity="0.8" />
+      <circle cy="70" r="2" fill="#ffffff" opacity="0.8" />
+      <circle cx="-60.62" cy="35" r="2" fill="#ffffff" opacity="0.8" />
+      <circle cx="-60.62" cy="-35" r="2" fill="#ffffff" opacity="0.8" />
+      <circle r="3" fill="#ffffff" opacity="0.9" />
+    </g>
+  </g>
+  
+  <!-- Outer ring decorative elements -->
+  <g transform="translate(250, 250)">
+    <g stroke="#445566" stroke-width="0.5" fill="none">
+      <!-- Decorative arc patterns -->
+      <path d="M210,0 A210,210 0 0,1 105,182" opacity="0.3" />
+      <path d="M105,182 A210,210 0 0,1 -105,182" opacity="0.3" />
+      <path d="M-105,182 A210,210 0 0,1 -210,0" opacity="0.3" />
+      <path d="M-210,0 A210,210 0 0,1 -105,-182" opacity="0.3" />
+      <path d="M-105,-182 A210,210 0 0,1 105,-182" opacity="0.3" />
+      <path d="M105,-182 A210,210 0 0,1 210,0" opacity="0.3" />
+      
+      <!-- Decorative patterns at cardinal points -->
+      <circle cx="220" r="5" stroke="#aaccee" opacity="0.6" />
+      <circle cx="-220" r="5" stroke="#aaccee" opacity="0.6" />
+      <circle cy="220" r="5" stroke="#aaccee" opacity="0.6" />
+      <circle cy="-220" r="5" stroke="#aaccee" opacity="0.6" />
+      
+      <path d="M220,0 L225,5 L230,0 L225,-5 Z" stroke="#aaccee" opacity="0.6" />
+      <path d="M-220,0 L-225,5 L-230,0 L-225,-5 Z" stroke="#aaccee" opacity="0.6" />
+      <path d="M0,220 L5,225 L0,230 L-5,225 Z" stroke="#aaccee" opacity="0.6" />
+      <path d="M0,-220 L5,-225 L0,-230 L-5,-225 Z" stroke="#aaccee" opacity="0.6" />
+    </g>
+  </g>
+  
+  <!-- Sanskrit-inspired symbols at the corners -->
+  <g fill="none" stroke="#ddddff" stroke-width="0.7" opacity="0.4">
+    <path d="M50,50 C55,45 65,45 70,50 C75,55 75,65 70,70 C65,75 55,75 50,70 C45,65 45,55 50,50 Z" />
+    <path d="M450,50 C445,45 435,45 430,50 C425,55 425,65 430,70 C435,75 445,75 450,70 C455,65 455,55 450,50 Z" />
+    <path d="M50,450 C55,455 65,455 70,450 C75,445 75,435 70,430 C65,425 55,425 50,430 C45,435 45,445 50,450 Z" />
+    <path d="M450,450 C445,455 435,455 430,450 C425,445 425,435 430,430 C435,425 445,425 450,430 C455,435 455,445 450,450 Z" />
+  </g>
+  
+  <!-- Stars in background -->
+  <g fill="#ffffff">
+    <circle cx="50" cy="100" r="0.8" opacity="0.5" />
+    <circle cx="100" cy="50" r="0.6" opacity="0.4" />
+    <circle cx="450" cy="100" r="0.7" opacity="0.5" />
+    <circle cx="400" cy="50" r="0.5" opacity="0.4" />
+    <circle cx="50" cy="400" r="0.6" opacity="0.5" />
+    <circle cx="100" cy="450" r="0.8" opacity="0.4" />
+    <circle cx="450" cy="400" r="0.5" opacity="0.5" />
+    <circle cx="400" cy="450" r="0.7" opacity="0.4" />
+    
+    <circle cx="150" cy="25" r="0.6" opacity="0.5" />
+    <circle cx="350" cy="25" r="0.7" opacity="0.4" />
+    <circle cx="150" cy="475" r="0.7" opacity="0.5" />
+    <circle cx="350" cy="475" r="0.6" opacity="0.4" />
+    <circle cx="25" cy="150" r="0.7" opacity="0.5" />
+    <circle cx="25" cy="350" r="0.6" opacity="0.4" />
+    <circle cx="475" cy="150" r="0.6" opacity="0.5" />
+    <circle cx="475" cy="350" r="0.7" opacity="0.4" />
+  </g>
+  
+  <!-- Ancient language symbols -->
+  <g fill="none" stroke="#aaaacc" stroke-width="0.5" opacity="0.4">
+    <path d="M250,30 L255,25 L260,30 L255,35 Z" />
+    <path d="M250,470 L255,465 L260,470 L255,475 Z" />
+    <path d="M30,250 L25,245 L30,240 L35,245 Z" />
+    <path d="M470,250 L465,245 L470,240 L475,245 Z" />
+  </g>
+</svg> 

@@ -1,0 +1,105 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#000000" />
+  
+  <!-- Grid background -->
+  <g fill="none" stroke="#333333" stroke-width="1">
+    <path d="M50,50 h400 M50,100 h400 M50,150 h400 M50,200 h400 M50,250 h400 M50,300 h400 M50,350 h400 M50,400 h400 M50,450 h400" />
+    <path d="M50,50 v400 M100,50 v400 M150,50 v400 M200,50 v400 M250,50 v400 M300,50 v400 M350,50 v400 M400,50 v400 M450,50 v400" />
+  </g>
+  
+  <!-- QR code corner squares -->
+  <g fill="#00ff00">
+    <!-- Top-left corner -->
+    <rect x="75" y="75" width="50" height="50" />
+    <rect x="85" y="85" width="30" height="30" fill="#000000" />
+    <rect x="95" y="95" width="10" height="10" fill="#00ff00" />
+    
+    <!-- Top-right corner -->
+    <rect x="375" y="75" width="50" height="50" />
+    <rect x="385" y="85" width="30" height="30" fill="#000000" />
+    <rect x="395" y="95" width="10" height="10" fill="#00ff00" />
+    
+    <!-- Bottom-left corner -->
+    <rect x="75" y="375" width="50" height="50" />
+    <rect x="85" y="385" width="30" height="30" fill="#000000" />
+    <rect x="95" y="395" width="10" height="10" fill="#00ff00" />
+  </g>
+  
+  <!-- QR code alignment pattern -->
+  <g fill="#00ff00">
+    <rect x="325" y="325" width="50" height="50" />
+    <rect x="335" y="335" width="30" height="30" fill="#000000" />
+    <rect x="345" y="345" width="10" height="10" fill="#00ff00" />
+  </g>
+  
+  <!-- Data modules -->
+  <g fill="#00ff00">
+    <!-- Random pattern resembling QR code data -->
+    <rect x="175" y="75" width="25" height="25" />
+    <rect x="225" y="75" width="25" height="25" />
+    <rect x="275" y="75" width="25" height="25" />
+    <rect x="325" y="75" width="25" height="25" />
+    
+    <rect x="75" y="125" width="25" height="25" />
+    <rect x="175" y="125" width="25" height="25" />
+    <rect x="275" y="125" width="25" height="25" />
+    <rect x="375" y="125" width="25" height="25" />
+    
+    <rect x="125" y="175" width="25" height="25" />
+    <rect x="175" y="175" width="25" height="25" />
+    <rect x="225" y="175" width="25" height="25" />
+    <rect x="325" y="175" width="25" height="25" />
+    <rect x="375" y="175" width="25" height="25" />
+    
+    <rect x="75" y="225" width="25" height="25" />
+    <rect x="125" y="225" width="25" height="25" />
+    <rect x="175" y="225" width="25" height="25" />
+    <rect x="225" y="225" width="25" height="25" />
+    <rect x="275" y="225" width="25" height="25" />
+    <rect x="325" y="225" width="25" height="25" />
+    
+    <rect x="125" y="275" width="25" height="25" />
+    <rect x="175" y="275" width="25" height="25" />
+    <rect x="275" y="275" width="25" height="25" />
+    <rect x="375" y="275" width="25" height="25" />
+    
+    <rect x="75" y="325" width="25" height="25" />
+    <rect x="175" y="325" width="25" height="25" />
+    <rect x="225" y="325" width="25" height="25" />
+    <rect x="275" y="325" width="25" height="25" />
+    
+    <rect x="125" y="375" width="25" height="25" />
+    <rect x="175" y="375" width="25" height="25" />
+    <rect x="225" y="375" width="25" height="25" />
+    <rect x="375" y="375" width="25" height="25" />
+    
+    <rect x="75" y="425" width="25" height="25" />
+    <rect x="125" y="425" width="25" height="25" />
+    <rect x="225" y="425" width="25" height="25" />
+    <rect x="275" y="425" width="25" height="25" />
+    <rect x="325" y="425" width="25" height="25" />
+    <rect x="375" y="425" width="25" height="25" />
+  </g>
+  
+  <!-- Timing patterns -->
+  <g fill="#00ff00">
+    <rect x="75" y="175" width="25" height="25" />
+    <rect x="125" y="175" width="25" height="25" />
+    <rect x="175" y="175" width="25" height="25" />
+    <rect x="225" y="175" width="25" height="25" />
+    <rect x="275" y="175" width="25" height="25" />
+    
+    <rect x="175" y="75" width="25" height="25" />
+    <rect x="175" y="125" width="25" height="25" />
+    <rect x="175" y="175" width="25" height="25" />
+    <rect x="175" y="225" width="25" height="25" />
+    <rect x="175" y="275" width="25" height="25" />
+    <rect x="175" y="325" width="25" height="25" />
+    <rect x="175" y="375" width="25" height="25" />
+    <rect x="175" y="425" width="25" height="25" />
+  </g>
+  
+  <!-- Central logo -->
+  <rect x="235" y="235" width="30" height="30" fill="#00ff00" />
+  <circle cx="250" cy="250" r="10" fill="#000000" />
+</svg> 

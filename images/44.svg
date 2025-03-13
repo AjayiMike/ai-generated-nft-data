@@ -1,0 +1,169 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#1a0b2e" />
+  
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00bfff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7b68ee;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="spiritGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff00cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3300ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Patterns -->
+    <pattern id="circuitPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M10,10 h30 M10,10 v30 M40,10 v30 M10,40 h30" stroke="#00bfff" stroke-width="0.5" opacity="0.3" />
+      <circle cx="10" cy="10" r="2" fill="#00bfff" opacity="0.3" />
+      <circle cx="40" cy="10" r="2" fill="#00bfff" opacity="0.3" />
+      <circle cx="10" cy="40" r="2" fill="#00bfff" opacity="0.3" />
+      <circle cx="40" cy="40" r="2" fill="#00bfff" opacity="0.3" />
+    </pattern>
+  </defs>
+  
+  <!-- Background pattern -->
+  <rect width="500" height="500" fill="url(#circuitPattern)" />
+  
+  <!-- Center glow -->
+  <circle cx="250" cy="250" r="150" fill="url(#centerGlow)" opacity="0.2" />
+  
+  <!-- Outer rings -->
+  <g transform="translate(250, 250)" fill="none" stroke-width="1.5">
+    <circle cx="0" cy="0" r="200" stroke="url(#techGradient)" />
+    <circle cx="0" cy="0" r="190" stroke="url(#spiritGradient)" />
+    <circle cx="0" cy="0" r="180" stroke="url(#techGradient)" />
+    <circle cx="0" cy="0" r="170" stroke="url(#spiritGradient)" />
+    <circle cx="0" cy="0" r="160" stroke="url(#techGradient)" />
+  </g>
+  
+  <!-- Mandala geometric patterns -->
+  <g transform="translate(250, 250)" fill="none" stroke-width="1.5" filter="url(#glow)">
+    <!-- Octagon -->
+    <path d="M 0,-150 L 106,-106 L 150,0 L 106,106 L 0,150 L -106,106 L -150,0 L -106,-106 Z" 
+          stroke="url(#techGradient)" />
+    
+    <!-- Star pattern -->
+    <path d="M 0,-120 L 30,-30 L 120,0 L 30,30 L 0,120 L -30,30 L -120,0 L -30,-30 Z" 
+          stroke="url(#spiritGradient)" />
+    
+    <!-- Inner octagon -->
+    <path d="M 0,-80 L 57,-57 L 80,0 L 57,57 L 0,80 L -57,57 L -80,0 L -57,-57 Z" 
+          stroke="url(#techGradient)" />
+    
+    <!-- Inner star -->
+    <path d="M 0,-60 L 15,-15 L 60,0 L 15,15 L 0,60 L -15,15 L -60,0 L -15,-15 Z" 
+          stroke="url(#spiritGradient)" />
+  </g>
+  
+  <!-- Connecting lines -->
+  <g transform="translate(250, 250)" stroke="#00bfff" stroke-width="0.8" opacity="0.6">
+    <!-- 8 primary lines -->
+    <line x1="0" y1="-150" x2="0" y2="-200" />
+    <line x1="106" y1="-106" x2="141" y2="-141" />
+    <line x1="150" y1="0" x2="200" y2="0" />
+    <line x1="106" y1="106" x2="141" y2="141" />
+    <line x1="0" y1="150" x2="0" y2="200" />
+    <line x1="-106" y1="106" x2="-141" y2="141" />
+    <line x1="-150" y1="0" x2="-200" y2="0" />
+    <line x1="-106" y1="-106" x2="-141" y2="-141" />
+    
+    <!-- 8 secondary lines -->
+    <line x1="53" y1="-139" x2="71" y2="-185" />
+    <line x1="139" y1="-53" x2="185" y2="-71" />
+    <line x1="139" y1="53" x2="185" y2="71" />
+    <line x1="53" y1="139" x2="71" y2="185" />
+    <line x1="-53" y1="139" x2="-71" y2="185" />
+    <line x1="-139" y1="53" x2="-185" y2="71" />
+    <line x1="-139" y1="-53" x2="-185" y2="-71" />
+    <line x1="-53" y1="-139" x2="-71" y2="-185" />
+  </g>
+  
+  <!-- Circuit elements on the outer ring -->
+  <g transform="translate(250, 250)">
+    <!-- Nodes -->
+    <circle cx="0" cy="-200" r="5" fill="#00bfff" />
+    <circle cx="141" cy="-141" r="5" fill="#ff00cc" />
+    <circle cx="200" cy="0" r="5" fill="#00bfff" />
+    <circle cx="141" cy="141" r="5" fill="#ff00cc" />
+    <circle cx="0" cy="200" r="5" fill="#00bfff" />
+    <circle cx="-141" cy="141" r="5" fill="#ff00cc" />
+    <circle cx="-200" cy="0" r="5" fill="#00bfff" />
+    <circle cx="-141" cy="-141" r="5" fill="#ff00cc" />
+    
+    <!-- Secondary nodes -->
+    <circle cx="71" cy="-185" r="3" fill="#7b68ee" />
+    <circle cx="185" cy="-71" r="3" fill="#7b68ee" />
+    <circle cx="185" cy="71" r="3" fill="#7b68ee" />
+    <circle cx="71" cy="185" r="3" fill="#7b68ee" />
+    <circle cx="-71" cy="185" r="3" fill="#7b68ee" />
+    <circle cx="-185" cy="71" r="3" fill="#7b68ee" />
+    <circle cx="-185" cy="-71" r="3" fill="#7b68ee" />
+    <circle cx="-71" cy="-185" r="3" fill="#7b68ee" />
+  </g>
+  
+  <!-- Lotus flower in the center -->
+  <g transform="translate(250, 250)" filter="url(#glow)">
+    <!-- Lotus petals -->
+    <path d="M0,0 C10,-20 30,-30 0,-50 C-30,-30 -10,-20 0,0" fill="#ff00cc" opacity="0.7" />
+    <path d="M0,0 C20,-10 30,-30 50,0 C30,30 20,10 0,0" fill="#ff00cc" opacity="0.7" />
+    <path d="M0,0 C10,20 30,30 0,50 C-30,30 -10,20 0,0" fill="#ff00cc" opacity="0.7" />
+    <path d="M0,0 C-20,10 -30,30 -50,0 C-30,-30 -20,-10 0,0" fill="#ff00cc" opacity="0.7" />
+    
+    <!-- Diagonal petals -->
+    <path d="M0,0 C15,-15 20,-40 35,-35 C40,-20 15,-15 0,0" fill="#ff00cc" opacity="0.7" />
+    <path d="M0,0 C15,15 40,20 35,35 C20,40 15,15 0,0" fill="#ff00cc" opacity="0.7" />
+    <path d="M0,0 C-15,15 -20,40 -35,35 C-40,20 -15,15 0,0" fill="#ff00cc" opacity="0.7" />
+    <path d="M0,0 C-15,-15 -40,-20 -35,-35 C-20,-40 -15,-15 0,0" fill="#ff00cc" opacity="0.7" />
+    
+    <!-- Center -->
+    <circle cx="0" cy="0" r="10" fill="#ffffff" />
+    <circle cx="0" cy="0" r="5" fill="#3300ff" />
+  </g>
+  
+  <!-- Binary code ring -->
+  <g transform="translate(250, 250)" fill="#00bfff" font-family="monospace" font-size="8">
+    <text x="-20" y="-125" transform="rotate(0, 0, 0)">10110101</text>
+    <text x="90" y="-90" transform="rotate(45, 0, 0)">01001110</text>
+    <text x="125" y="5" transform="rotate(90, 0, 0)">11010010</text>
+    <text x="90" y="95" transform="rotate(135, 0, 0)">00101101</text>
+    <text x="-20" y="130" transform="rotate(180, 0, 0)">10011001</text>
+    <text x="-130" y="95" transform="rotate(225, 0, 0)">01110010</text>
+    <text x="-165" y="5" transform="rotate(270, 0, 0)">11001101</text>
+    <text x="-130" y="-90" transform="rotate(315, 0, 0)">00110110</text>
+  </g>
+  
+  <!-- Sanskrit/sacred geometry symbols -->
+  <g transform="translate(250, 250)" fill="#ff00cc" opacity="0.8">
+    <path d="M-40,0 A40,40 0 0,1 40,0 A40,40 0 0,1 -40,0 M0,-40 A40,40 0 0,1 0,40 A40,40 0 0,1 0,-40" 
+          stroke="#ff00cc" stroke-width="1" fill="none" />
+    
+    <path d="M-30,0 L30,0 M0,-30 L0,30" stroke="#ff00cc" stroke-width="1.5" opacity="0.5" />
+    
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#ff00cc" stroke-width="1" />
+  </g>
+  
+  <!-- Particle effects -->
+  <g transform="translate(250, 250)">
+    <circle cx="75" cy="-55" r="1.5" fill="#ffffff" />
+    <circle cx="120" cy="25" r="1" fill="#ffffff" />
+    <circle cx="45" cy="95" r="1.5" fill="#ffffff" />
+    <circle cx="-65" cy="85" r="1" fill="#ffffff" />
+    <circle cx="-115" cy="-15" r="1.5" fill="#ffffff" />
+    <circle cx="-35" cy="-95" r="1" fill="#ffffff" />
+    <circle cx="15" cy="-65" r="1.5" fill="#ffffff" />
+    <circle cx="-25" cy="35" r="1" fill="#ffffff" />
+  </g>
+</svg> 

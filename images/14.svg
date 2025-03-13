@@ -1,0 +1,38 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#212529" />
+  
+  <!-- Row 1 -->
+  <circle cx="83" cy="83" r="33" fill="#ff6b6b" />
+  <circle cx="166" cy="83" r="33" fill="#ff922b" />
+  <circle cx="249" cy="83" r="33" fill="#fcc419" />
+  <circle cx="332" cy="83" r="33" fill="#51cf66" />
+  <circle cx="415" cy="83" r="33" fill="#339af0" />
+  
+  <!-- Row 2 -->
+  <circle cx="83" cy="166" r="33" fill="#22b8cf" />
+  <circle cx="166" cy="166" r="33" fill="#5f3dc4" />
+  <circle cx="249" cy="166" r="33" fill="#ff6b6b" />
+  <circle cx="332" cy="166" r="33" fill="#ff922b" />
+  <circle cx="415" cy="166" r="33" fill="#fcc419" />
+  
+  <!-- Row 3 -->
+  <circle cx="83" cy="249" r="33" fill="#51cf66" />
+  <circle cx="166" cy="249" r="33" fill="#339af0" />
+  <circle cx="249" cy="249" r="33" fill="#22b8cf" />
+  <circle cx="332" cy="249" r="33" fill="#5f3dc4" />
+  <circle cx="415" cy="249" r="33" fill="#ff6b6b" />
+  
+  <!-- Row 4 -->
+  <circle cx="83" cy="332" r="33" fill="#ff922b" />
+  <circle cx="166" cy="332" r="33" fill="#fcc419" />
+  <circle cx="249" cy="332" r="33" fill="#51cf66" />
+  <circle cx="332" cy="332" r="33" fill="#339af0" />
+  <circle cx="415" cy="332" r="33" fill="#22b8cf" />
+  
+  <!-- Row 5 -->
+  <circle cx="83" cy="415" r="33" fill="#5f3dc4" />
+  <circle cx="166" cy="415" r="33" fill="#ff6b6b" />
+  <circle cx="249" cy="415" r="33" fill="#ff922b" />
+  <circle cx="332" cy="415" r="33" fill="#fcc419" />
+  <circle cx="415" cy="415" r="33" fill="#51cf66" />
+</svg> 

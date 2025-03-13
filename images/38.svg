@@ -1,0 +1,189 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#000000" />
+  
+  <!-- Starry night background -->
+  <g fill="#ffffff">
+    <circle cx="50" cy="30" r="0.8" opacity="0.6" />
+    <circle cx="80" cy="70" r="0.6" opacity="0.5" />
+    <circle cx="120" cy="40" r="1" opacity="0.7" />
+    <circle cx="160" cy="90" r="0.7" opacity="0.6" />
+    <circle cx="210" cy="20" r="0.9" opacity="0.7" />
+    <circle cx="250" cy="80" r="0.6" opacity="0.5" />
+    <circle cx="290" cy="30" r="1.1" opacity="0.8" />
+    <circle cx="340" cy="70" r="0.8" opacity="0.6" />
+    <circle cx="380" cy="25" r="0.7" opacity="0.5" />
+    <circle cx="420" cy="60" r="1" opacity="0.7" />
+    <circle cx="470" cy="35" r="0.9" opacity="0.6" />
+    
+    <circle cx="40" cy="120" r="0.7" opacity="0.6" />
+    <circle cx="90" cy="150" r="0.9" opacity="0.7" />
+    <circle cx="130" cy="110" r="0.6" opacity="0.5" />
+    <circle cx="180" cy="140" r="1.1" opacity="0.8" />
+    <circle cx="230" cy="130" r="0.8" opacity="0.6" />
+    <circle cx="270" cy="160" r="0.7" opacity="0.5" />
+    <circle cx="310" cy="120" r="1" opacity="0.7" />
+    <circle cx="360" cy="150" r="0.9" opacity="0.6" />
+    <circle cx="410" cy="140" r="0.7" opacity="0.6" />
+    <circle cx="450" cy="110" r="0.9" opacity="0.7" />
+    
+    <circle cx="30" cy="200" r="0.6" opacity="0.5" />
+    <circle cx="70" cy="230" r="1.1" opacity="0.8" />
+    <circle cx="120" cy="210" r="0.8" opacity="0.6" />
+    <circle cx="160" cy="190" r="0.7" opacity="0.5" />
+    <circle cx="200" cy="220" r="1" opacity="0.7" />
+    <circle cx="240" cy="180" r="0.9" opacity="0.6" />
+    <circle cx="290" cy="240" r="0.7" opacity="0.6" />
+    <circle cx="330" cy="200" r="0.9" opacity="0.7" />
+    <circle cx="370" cy="230" r="0.6" opacity="0.5" />
+    <circle cx="420" cy="210" r="1.1" opacity="0.8" />
+    <circle cx="460" cy="190" r="0.8" opacity="0.6" />
+  </g>
+  
+  <!-- Gradient definitions for fractal branches -->
+  <defs>
+    <linearGradient id="trunk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5A2B" />
+      <stop offset="100%" stop-color="#664229" />
+    </linearGradient>
+    
+    <linearGradient id="branch1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#44aa00" />
+      <stop offset="100%" stop-color="#55cc00" />
+    </linearGradient>
+    
+    <linearGradient id="branch2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#33bb00" />
+      <stop offset="100%" stop-color="#66dd00" />
+    </linearGradient>
+    
+    <linearGradient id="branch3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22cc00" />
+      <stop offset="100%" stop-color="#77ee00" />
+    </linearGradient>
+    
+    <linearGradient id="branch4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#11dd00" />
+      <stop offset="100%" stop-color="#88ff00" />
+    </linearGradient>
+    
+    <linearGradient id="branch5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ee00" />
+      <stop offset="100%" stop-color="#99ff33" />
+    </linearGradient>
+    
+    <linearGradient id="leaf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff00" />
+      <stop offset="100%" stop-color="#aaffaa" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Ground with moon reflection -->
+  <rect x="0" y="450" width="500" height="50" fill="#001100" />
+  <ellipse cx="250" cy="450" rx="200" ry="20" fill="#002200" />
+  
+  <!-- Moon -->
+  <circle cx="400" cy="80" r="40" fill="#ffffcc" />
+  <circle cx="380" cy="70" r="15" fill="#eeeeaa" opacity="0.7" />
+  <circle cx="410" cy="95" r="10" fill="#eeeeaa" opacity="0.7" />
+  
+  <!-- Fractal Tree -->
+  <!-- Trunk -->
+  <path d="M250,450 L250,350" stroke="url(#trunk)" stroke-width="10" stroke-linecap="round" />
+  
+  <!-- Level 1 branches -->
+  <path d="M250,350 L200,300" stroke="url(#branch1)" stroke-width="8" stroke-linecap="round" />
+  <path d="M250,350 L300,300" stroke="url(#branch1)" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Level 2 branches -->
+  <path d="M200,300 L170,260" stroke="url(#branch2)" stroke-width="6" stroke-linecap="round" />
+  <path d="M200,300 L230,250" stroke="url(#branch2)" stroke-width="6" stroke-linecap="round" />
+  <path d="M300,300 L270,250" stroke="url(#branch2)" stroke-width="6" stroke-linecap="round" />
+  <path d="M300,300 L330,260" stroke="url(#branch2)" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Level 3 branches -->
+  <path d="M170,260 L150,230" stroke="url(#branch3)" stroke-width="4" stroke-linecap="round" />
+  <path d="M170,260 L190,220" stroke="url(#branch3)" stroke-width="4" stroke-linecap="round" />
+  <path d="M230,250 L215,210" stroke="url(#branch3)" stroke-width="4" stroke-linecap="round" />
+  <path d="M230,250 L245,210" stroke="url(#branch3)" stroke-width="4" stroke-linecap="round" />
+  <path d="M270,250 L255,210" stroke="url(#branch3)" stroke-width="4" stroke-linecap="round" />
+  <path d="M270,250 L285,210" stroke="url(#branch3)" stroke-width="4" stroke-linecap="round" />
+  <path d="M330,260 L310,220" stroke="url(#branch3)" stroke-width="4" stroke-linecap="round" />
+  <path d="M330,260 L350,230" stroke="url(#branch3)" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Level 4 branches -->
+  <path d="M150,230 L135,205" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M150,230 L160,195" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M190,220 L180,185" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M190,220 L205,190" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  
+  <path d="M215,210 L200,180" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M215,210 L225,180" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M245,210 L235,180" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M245,210 L260,185" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  
+  <path d="M255,210 L240,180" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M255,210 L265,175" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M285,210 L275,180" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M285,210 L300,175" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  
+  <path d="M310,220 L295,185" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M310,220 L320,190" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M350,230 L340,195" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  <path d="M350,230 L365,205" stroke="url(#branch4)" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Level 5 branches (some) -->
+  <path d="M135,205 L125,185" stroke="url(#branch5)" stroke-width="2" stroke-linecap="round" />
+  <path d="M135,205 L145,180" stroke="url(#branch5)" stroke-width="2" stroke-linecap="round" />
+  <path d="M160,195 L150,175" stroke="url(#branch5)" stroke-width="2" stroke-linecap="round" />
+  <path d="M160,195 L170,170" stroke="url(#branch5)" stroke-width="2" stroke-linecap="round" />
+  
+  <path d="M300,175 L290,155" stroke="url(#branch5)" stroke-width="2" stroke-linecap="round" />
+  <path d="M300,175 L310,150" stroke="url(#branch5)" stroke-width="2" stroke-linecap="round" />
+  <path d="M320,190 L310,170" stroke="url(#branch5)" stroke-width="2" stroke-linecap="round" />
+  <path d="M320,190 L330,165" stroke="url(#branch5)" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Leaf clusters -->
+  <g filter="url(#glow)">
+    <circle cx="125" cy="185" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="145" cy="180" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="150" cy="175" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="170" cy="170" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="180" cy="185" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="205" cy="190" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="200" cy="180" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="225" cy="180" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="235" cy="180" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="260" cy="185" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="240" cy="180" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="265" cy="175" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="275" cy="180" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="290" cy="155" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="310" cy="150" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="310" cy="170" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="330" cy="165" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="340" cy="195" r="5" fill="url(#leaf)" opacity="0.9" />
+    <circle cx="365" cy="205" r="5" fill="url(#leaf)" opacity="0.9" />
+  </g>
+  
+  <!-- Fireflies around the tree -->
+  <g filter="url(#glow)">
+    <circle cx="180" cy="280" r="1.5" fill="#ffff00" opacity="0.8" />
+    <circle cx="220" cy="230" r="1.5" fill="#ffff00" opacity="0.8" />
+    <circle cx="150" cy="350" r="1.5" fill="#ffff00" opacity="0.7" />
+    <circle cx="300" cy="320" r="1.5" fill="#ffff00" opacity="0.9" />
+    <circle cx="270" cy="280" r="1.5" fill="#ffff00" opacity="0.7" />
+    <circle cx="330" cy="230" r="1.5" fill="#ffff00" opacity="0.8" />
+    <circle cx="190" cy="200" r="1.5" fill="#ffff00" opacity="0.9" />
+    <circle cx="250" cy="190" r="1.5" fill="#ffff00" opacity="0.7" />
+    <circle cx="310" cy="200" r="1.5" fill="#ffff00" opacity="0.8" />
+    <circle cx="280" cy="150" r="1.5" fill="#ffff00" opacity="0.9" />
+    <circle cx="230" cy="170" r="1.5" fill="#ffff00" opacity="0.7" />
+  </g>
+</svg> 

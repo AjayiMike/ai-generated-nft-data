@@ -1,0 +1,133 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#0b0033" />
+  
+  <!-- Stars -->
+  <g id="stars">
+    <circle cx="50" cy="50" r="1" fill="#ffffff" />
+    <circle cx="100" cy="30" r="1.2" fill="#ffffff" />
+    <circle cx="150" cy="70" r="0.8" fill="#ffffff" />
+    <circle cx="200" cy="40" r="1.5" fill="#ffffff" />
+    <circle cx="250" cy="60" r="0.7" fill="#ffffff" />
+    <circle cx="300" cy="25" r="1.3" fill="#ffffff" />
+    <circle cx="350" cy="75" r="1" fill="#ffffff" />
+    <circle cx="400" cy="45" r="0.9" fill="#ffffff" />
+    <circle cx="450" cy="65" r="1.4" fill="#ffffff" />
+    <circle cx="75" cy="125" r="1.1" fill="#ffffff" />
+    <circle cx="125" cy="175" r="0.6" fill="#ffffff" />
+    <circle cx="175" cy="125" r="1.2" fill="#ffffff" />
+    <circle cx="225" cy="175" r="0.8" fill="#ffffff" />
+    <circle cx="275" cy="125" r="1.5" fill="#ffffff" />
+    <circle cx="325" cy="175" r="0.7" fill="#ffffff" />
+    <circle cx="375" cy="125" r="1.3" fill="#ffffff" />
+    <circle cx="425" cy="175" r="1" fill="#ffffff" />
+    <circle cx="25" cy="225" r="0.9" fill="#ffffff" />
+    <circle cx="75" cy="275" r="1.4" fill="#ffffff" />
+    <circle cx="125" cy="225" r="1.1" fill="#ffffff" />
+    <circle cx="175" cy="275" r="0.6" fill="#ffffff" />
+    <circle cx="225" cy="225" r="1.2" fill="#ffffff" />
+    <circle cx="275" cy="275" r="0.8" fill="#ffffff" />
+    <circle cx="325" cy="225" r="1.5" fill="#ffffff" />
+    <circle cx="375" cy="275" r="0.7" fill="#ffffff" />
+    <circle cx="425" cy="225" r="1.3" fill="#ffffff" />
+    <circle cx="475" cy="275" r="1" fill="#ffffff" />
+    <circle cx="25" cy="325" r="0.9" fill="#ffffff" />
+    <circle cx="75" cy="375" r="1.4" fill="#ffffff" />
+    <circle cx="125" cy="325" r="1.1" fill="#ffffff" />
+    <circle cx="175" cy="375" r="0.6" fill="#ffffff" />
+    <circle cx="225" cy="325" r="1.2" fill="#ffffff" />
+    <circle cx="275" cy="375" r="0.8" fill="#ffffff" />
+    <circle cx="325" cy="325" r="1.5" fill="#ffffff" />
+    <circle cx="375" cy="375" r="0.7" fill="#ffffff" />
+    <circle cx="425" cy="325" r="1.3" fill="#ffffff" />
+    <circle cx="475" cy="375" r="1" fill="#ffffff" />
+    <circle cx="25" cy="425" r="0.9" fill="#ffffff" />
+    <circle cx="75" cy="475" r="1.4" fill="#ffffff" />
+    <circle cx="125" cy="425" r="1.1" fill="#ffffff" />
+    <circle cx="175" cy="475" r="0.6" fill="#ffffff" />
+    <circle cx="225" cy="425" r="1.2" fill="#ffffff" />
+    <circle cx="275" cy="475" r="0.8" fill="#ffffff" />
+    <circle cx="325" cy="425" r="1.5" fill="#ffffff" />
+    <circle cx="375" cy="475" r="0.7" fill="#ffffff" />
+    <circle cx="425" cy="425" r="1.3" fill="#ffffff" />
+    <circle cx="475" cy="475" r="1" fill="#ffffff" />
+  </g>
+  
+  <!-- Nebula gradients -->
+  <defs>
+    <radialGradient id="purpleNebula" cx="50%" cy="50%" r="60%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#a64dff" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#5c00e6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#2b0070" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="blueNebula" cx="30%" cy="60%" r="50%" fx="30%" fy="60%">
+      <stop offset="0%" stop-color="#00ccff" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#0066ff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#000066" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="pinkNebula" cx="70%" cy="30%" r="45%" fx="70%" fy="30%">
+      <stop offset="0%" stop-color="#ff66cc" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#ff0099" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#660033" stop-opacity="0" />
+    </radialGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Nebula clouds -->
+  <g opacity="0.8">
+    <ellipse cx="250" cy="250" rx="180" ry="150" fill="url(#purpleNebula)" />
+    <ellipse cx="150" cy="300" rx="140" ry="120" fill="url(#blueNebula)" />
+    <ellipse cx="350" cy="150" rx="120" ry="100" fill="url(#pinkNebula)" />
+  </g>
+  
+  <!-- Cosmic dust particles -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="200" cy="200" r="1.5" />
+    <circle cx="220" cy="210" r="1.2" />
+    <circle cx="240" cy="190" r="1.8" />
+    <circle cx="260" cy="220" r="1.3" />
+    <circle cx="280" cy="200" r="1.7" />
+    <circle cx="300" cy="210" r="1.4" />
+    <circle cx="320" cy="190" r="1.9" />
+    <circle cx="180" cy="230" r="1.6" />
+    <circle cx="160" cy="210" r="1.3" />
+    <circle cx="140" cy="190" r="1.8" />
+    <circle cx="200" cy="250" r="1.5" />
+    <circle cx="220" cy="270" r="1.2" />
+    <circle cx="240" cy="290" r="1.8" />
+    <circle cx="260" cy="310" r="1.3" />
+    <circle cx="280" cy="330" r="1.7" />
+    <circle cx="300" cy="350" r="1.4" />
+    <circle cx="320" cy="370" r="1.9" />
+    <circle cx="180" cy="330" r="1.6" />
+    <circle cx="160" cy="350" r="1.3" />
+    <circle cx="140" cy="370" r="1.8" />
+  </g>
+  
+  <!-- Brighter stars with glow -->
+  <g filter="url(#glow)">
+    <circle cx="120" cy="80" r="2" fill="#ffffff" />
+    <circle cx="380" cy="420" r="2.2" fill="#ffffff" />
+    <circle cx="420" cy="120" r="1.8" fill="#ffffff" />
+    <circle cx="80" cy="380" r="2.5" fill="#ffffff" />
+    <circle cx="250" cy="100" r="2.3" fill="#ffffff" />
+    <circle cx="400" cy="250" r="2.1" fill="#ffffff" />
+    <circle cx="100" cy="400" r="1.9" fill="#ffffff" />
+    <circle cx="250" cy="400" r="2.4" fill="#ffffff" />
+  </g>
+  
+  <!-- Central bright star -->
+  <circle cx="250" cy="250" r="5" fill="#ffffff" filter="url(#glow)" />
+  
+  <!-- Small galaxy in the corner -->
+  <g transform="translate(400, 100) rotate(45)">
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="url(#purpleNebula)" opacity="0.6" />
+    <path d="M-30,0 A30,10 0 1,0 30,0 A30,10 0 1,0 -30,0 Z" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.5" />
+  </g>
+</svg> 

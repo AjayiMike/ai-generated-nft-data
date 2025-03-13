@@ -1,0 +1,82 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#252525" />
+  
+  <!-- Neural network nodes -->
+  <g fill="#8ecae6">
+    <!-- Input layer -->
+    <circle cx="100" cy="100" r="10" />
+    <circle cx="100" cy="200" r="10" />
+    <circle cx="100" cy="300" r="10" />
+    <circle cx="100" cy="400" r="10" />
+    
+    <!-- Hidden layer 1 -->
+    <circle cx="200" cy="150" r="10" />
+    <circle cx="200" cy="250" r="10" />
+    <circle cx="200" cy="350" r="10" />
+    
+    <!-- Hidden layer 2 -->
+    <circle cx="300" cy="125" r="10" />
+    <circle cx="300" cy="225" r="10" />
+    <circle cx="300" cy="325" r="10" />
+    <circle cx="300" cy="425" r="10" />
+    
+    <!-- Output layer -->
+    <circle cx="400" cy="200" r="10" />
+    <circle cx="400" cy="300" r="10" />
+  </g>
+  
+  <!-- Connections -->
+  <g stroke="#219ebc" stroke-width="1.5">
+    <!-- Input to hidden 1 connections -->
+    <line x1="100" y1="100" x2="200" y2="150" />
+    <line x1="100" y1="100" x2="200" y2="250" />
+    <line x1="100" y1="100" x2="200" y2="350" />
+    
+    <line x1="100" y1="200" x2="200" y2="150" />
+    <line x1="100" y1="200" x2="200" y2="250" />
+    <line x1="100" y1="200" x2="200" y2="350" />
+    
+    <line x1="100" y1="300" x2="200" y2="150" />
+    <line x1="100" y1="300" x2="200" y2="250" />
+    <line x1="100" y1="300" x2="200" y2="350" />
+    
+    <line x1="100" y1="400" x2="200" y2="150" />
+    <line x1="100" y1="400" x2="200" y2="250" />
+    <line x1="100" y1="400" x2="200" y2="350" />
+    
+    <!-- Hidden 1 to hidden 2 connections -->
+    <line x1="200" y1="150" x2="300" y2="125" />
+    <line x1="200" y1="150" x2="300" y2="225" />
+    <line x1="200" y1="150" x2="300" y2="325" />
+    <line x1="200" y1="150" x2="300" y2="425" />
+    
+    <line x1="200" y1="250" x2="300" y2="125" />
+    <line x1="200" y1="250" x2="300" y2="225" />
+    <line x1="200" y1="250" x2="300" y2="325" />
+    <line x1="200" y1="250" x2="300" y2="425" />
+    
+    <line x1="200" y1="350" x2="300" y2="125" />
+    <line x1="200" y1="350" x2="300" y2="225" />
+    <line x1="200" y1="350" x2="300" y2="325" />
+    <line x1="200" y1="350" x2="300" y2="425" />
+    
+    <!-- Hidden 2 to output connections -->
+    <line x1="300" y1="125" x2="400" y2="200" />
+    <line x1="300" y1="125" x2="400" y2="300" />
+    
+    <line x1="300" y1="225" x2="400" y2="200" />
+    <line x1="300" y1="225" x2="400" y2="300" />
+    
+    <line x1="300" y1="325" x2="400" y2="200" />
+    <line x1="300" y1="325" x2="400" y2="300" />
+    
+    <line x1="300" y1="425" x2="400" y2="200" />
+    <line x1="300" y1="425" x2="400" y2="300" />
+  </g>
+  
+  <!-- Active nodes -->
+  <circle cx="100" cy="300" r="13" fill="none" stroke="#fb8500" stroke-width="2" />
+  <circle cx="200" cy="250" r="13" fill="none" stroke="#fb8500" stroke-width="2" />
+  <circle cx="300" cy="325" r="13" fill="none" stroke="#fb8500" stroke-width="2" />
+  <circle cx="400" cy="300" r="13" fill="none" stroke="#fb8500" stroke-width="2" />
+</svg> 

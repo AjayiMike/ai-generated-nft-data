@@ -1,0 +1,99 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#03071e" />
+  
+  <!-- Stars -->
+  <g fill="#f8f9fa">
+    <circle cx="50" cy="50" r="1" />
+    <circle cx="75" cy="125" r="1" />
+    <circle cx="125" cy="75" r="1" />
+    <circle cx="150" cy="50" r="1" />
+    <circle cx="200" cy="25" r="1" />
+    <circle cx="250" cy="75" r="1" />
+    <circle cx="300" cy="30" r="1" />
+    <circle cx="350" cy="100" r="1" />
+    <circle cx="370" cy="50" r="1" />
+    <circle cx="400" cy="80" r="1" />
+    <circle cx="450" cy="25" r="1" />
+    <circle cx="480" cy="60" r="1" />
+    
+    <circle cx="30" cy="150" r="1" />
+    <circle cx="80" cy="180" r="1" />
+    <circle cx="120" cy="220" r="1" />
+    <circle cx="170" cy="190" r="1" />
+    <circle cx="230" cy="150" r="1" />
+    <circle cx="280" cy="170" r="1" />
+    <circle cx="350" cy="180" r="1" />
+    <circle cx="390" cy="140" r="1" />
+    <circle cx="450" cy="160" r="1" />
+    
+    <circle cx="40" cy="250" r="1" />
+    <circle cx="90" cy="300" r="1" />
+    <circle cx="150" cy="270" r="1" />
+    <circle cx="200" cy="320" r="1" />
+    <circle cx="250" cy="280" r="1" />
+    <circle cx="290" cy="330" r="1" />
+    <circle cx="340" cy="260" r="1" />
+    <circle cx="380" cy="310" r="1" />
+    <circle cx="420" cy="290" r="1" />
+    <circle cx="470" cy="270" r="1" />
+    
+    <circle cx="60" cy="360" r="1" />
+    <circle cx="120" cy="400" r="1" />
+    <circle cx="180" cy="370" r="1" />
+    <circle cx="230" cy="420" r="1" />
+    <circle cx="270" cy="380" r="1" />
+    <circle cx="320" cy="410" r="1" />
+    <circle cx="370" cy="370" r="1" />
+    <circle cx="430" cy="390" r="1" />
+    <circle cx="480" cy="420" r="1" />
+    
+    <circle cx="30" cy="450" r="1" />
+    <circle cx="70" cy="470" r="1" />
+    <circle cx="130" cy="460" r="1" />
+    <circle cx="180" cy="480" r="1" />
+    <circle cx="240" cy="460" r="1" />
+    <circle cx="300" cy="470" r="1" />
+    <circle cx="350" cy="450" r="1" />
+    <circle cx="400" cy="470" r="1" />
+    <circle cx="450" cy="450" r="1" />
+    <circle cx="480" cy="480" r="1" />
+  </g>
+  
+  <!-- Larger sparkles -->
+  <g fill="#f8f9fa">
+    <circle cx="120" cy="100" r="2" />
+    <circle cx="270" cy="70" r="2" />
+    <circle cx="400" cy="120" r="2" />
+    <circle cx="150" cy="220" r="2" />
+    <circle cx="320" cy="190" r="2" />
+    <circle cx="80" cy="280" r="2" />
+    <circle cx="220" cy="350" r="2" />
+    <circle cx="370" cy="330" r="2" />
+    <circle cx="100" cy="430" r="2" />
+    <circle cx="290" cy="450" r="2" />
+    <circle cx="430" cy="420" r="2" />
+  </g>
+  
+  <!-- Nebula -->
+  <defs>
+    <radialGradient id="nebula1" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#9d4edd;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#03071e;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="nebula2" cx="30%" cy="70%" r="50%" fx="30%" fy="70%">
+      <stop offset="0%" style="stop-color:#480ca8;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#03071e;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <circle cx="250" cy="250" r="200" fill="url(#nebula1)" />
+  <circle cx="150" cy="350" r="150" fill="url(#nebula2)" />
+  
+  <!-- Planets -->
+  <circle cx="180" cy="150" r="30" fill="#6a994e" stroke="#386641" stroke-width="2" />
+  <circle cx="320" cy="280" r="40" fill="#bc4749" stroke="#9e2a2b" stroke-width="2" />
+  
+  <!-- Ringed planet -->
+  <ellipse cx="400" cy="180" rx="20" ry="20" fill="#ccdbfd" stroke="#abc4ff" stroke-width="1" />
+  <ellipse cx="400" cy="180" rx="35" ry="10" fill="none" stroke="#ccdbfd" stroke-width="2" />
+</svg> 

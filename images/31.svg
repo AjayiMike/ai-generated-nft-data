@@ -1,0 +1,79 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#062638" />
+  
+  <defs>
+    <pattern id="hexPattern" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Hexagon shape -->
+      <path d="M50,15 L85,33 L85,67 L50,85 L15,67 L15,33 Z" fill="none" stroke="#0099cc" stroke-width="2" />
+    </pattern>
+    
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#00eeff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00eeff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background hexagon pattern -->
+  <rect width="500" height="500" fill="url(#hexPattern)" />
+  
+  <!-- Hexagonal grid -->
+  <g stroke="#0099cc" stroke-width="2" fill="none">
+    <!-- Row 1 -->
+    <path d="M50,65 L85,83 L85,117 L50,135 L15,117 L15,83 Z" />
+    <path d="M150,65 L185,83 L185,117 L150,135 L115,117 L115,83 Z" />
+    <path d="M250,65 L285,83 L285,117 L250,135 L215,117 L215,83 Z" />
+    <path d="M350,65 L385,83 L385,117 L350,135 L315,117 L315,83 Z" />
+    <path d="M450,65 L485,83 L485,117 L450,135 L415,117 L415,83 Z" />
+    
+    <!-- Row 2 -->
+    <path d="M100,165 L135,183 L135,217 L100,235 L65,217 L65,183 Z" />
+    <path d="M200,165 L235,183 L235,217 L200,235 L165,217 L165,183 Z" />
+    <path d="M300,165 L335,183 L335,217 L300,235 L265,217 L265,183 Z" />
+    <path d="M400,165 L435,183 L435,217 L400,235 L365,217 L365,183 Z" />
+    
+    <!-- Row 3 -->
+    <path d="M50,265 L85,283 L85,317 L50,335 L15,317 L15,283 Z" />
+    <path d="M150,265 L185,283 L185,317 L150,335 L115,317 L115,283 Z" />
+    <path d="M250,265 L285,283 L285,317 L250,335 L215,317 L215,283 Z" />
+    <path d="M350,265 L385,283 L385,317 L350,335 L315,317 L315,283 Z" />
+    <path d="M450,265 L485,283 L485,317 L450,335 L415,317 L415,283 Z" />
+    
+    <!-- Row 4 -->
+    <path d="M100,365 L135,383 L135,417 L100,435 L65,417 L65,383 Z" />
+    <path d="M200,365 L235,383 L235,417 L200,435 L165,417 L165,383 Z" />
+    <path d="M300,365 L335,383 L335,417 L300,435 L265,417 L265,383 Z" />
+    <path d="M400,365 L435,383 L435,417 L400,435 L365,417 L365,383 Z" />
+  </g>
+  
+  <!-- Filled hexagons with glow effects -->
+  <g>
+    <path d="M200,165 L235,183 L235,217 L200,235 L165,217 L165,183 Z" fill="#0077aa" />
+    <path d="M300,165 L335,183 L335,217 L300,235 L265,217 L265,183 Z" fill="#0077aa" />
+    
+    <path d="M150,265 L185,283 L185,317 L150,335 L115,317 L115,283 Z" fill="#0077aa" />
+    <path d="M250,265 L285,283 L285,317 L250,335 L215,317 L215,283 Z" fill="#0077aa" />
+    <path d="M350,265 L385,283 L385,317 L350,335 L315,317 L315,283 Z" fill="#0077aa" />
+    
+    <path d="M200,365 L235,383 L235,417 L200,435 L165,417 L165,383 Z" fill="#0077aa" />
+    <path d="M300,365 L335,383 L335,417 L300,435 L265,417 L265,383 Z" fill="#0077aa" />
+  </g>
+  
+  <!-- Highlight connections -->
+  <g stroke="#00eeff" stroke-width="3">
+    <line x1="200" y1="235" x2="150" y2="265" />
+    <line x1="200" y1="235" x2="250" y2="265" />
+    <line x1="300" y1="235" x2="250" y2="265" />
+    <line x1="300" y1="235" x2="350" y2="265" />
+    
+    <line x1="150" y1="335" x2="200" y2="365" />
+    <line x1="250" y1="335" x2="200" y2="365" />
+    <line x1="250" y1="335" x2="300" y2="365" />
+    <line x1="350" y1="335" x2="300" y2="365" />
+  </g>
+  
+  <!-- Center glow -->
+  <circle cx="250" cy="250" r="100" fill="url(#centerGlow)" />
+  
+  <!-- Central hexagon -->
+  <path d="M250,215 L285,233 L285,267 L250,285 L215,267 L215,233 Z" fill="#00eeff" fill-opacity="0.3" stroke="#00eeff" stroke-width="3" />
+</svg> 

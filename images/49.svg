@@ -1,0 +1,245 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#090420" />
+  
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#090420;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#1a0942;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#200a54;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="buildingGradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d0a6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d0221;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="buildingGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d0e94;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0942;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff00cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff66ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ccff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#33ffff;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9900ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc66ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff99;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66ffcc;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="energyCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff3300;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff9900;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcc00;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <pattern id="windowGrid" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="3" height="3" fill="#33ccff" fill-opacity="0.5" />
+    </pattern>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)" />
+  
+  <!-- Stars -->
+  <g>
+    <circle cx="30" cy="40" r="1" fill="#ffffff" opacity="0.8" />
+    <circle cx="80" cy="60" r="1.5" fill="#ffffff" opacity="0.8" />
+    <circle cx="150" cy="30" r="1" fill="#ffffff" opacity="0.8" />
+    <circle cx="200" cy="70" r="1.5" fill="#ffffff" opacity="0.8" />
+    <circle cx="280" cy="50" r="1" fill="#ffffff" opacity="0.8" />
+    <circle cx="320" cy="40" r="1.5" fill="#ffffff" opacity="0.8" />
+    <circle cx="380" cy="60" r="1" fill="#ffffff" opacity="0.8" />
+    <circle cx="430" cy="30" r="1.5" fill="#ffffff" opacity="0.8" />
+    <circle cx="470" cy="70" r="1" fill="#ffffff" opacity="0.8" />
+    
+    <circle cx="50" cy="100" r="1.5" fill="#ffffff" opacity="0.8" />
+    <circle cx="120" cy="120" r="1" fill="#ffffff" opacity="0.8" />
+    <circle cx="180" cy="90" r="1.5" fill="#ffffff" opacity="0.8" />
+    <circle cx="240" cy="110" r="1" fill="#ffffff" opacity="0.8" />
+    <circle cx="300" cy="90" r="1.5" fill="#ffffff" opacity="0.8" />
+    <circle cx="350" cy="120" r="1" fill="#ffffff" opacity="0.8" />
+    <circle cx="420" cy="100" r="1.5" fill="#ffffff" opacity="0.8" />
+    <circle cx="480" cy="130" r="1" fill="#ffffff" opacity="0.8" />
+  </g>
+  
+  <!-- Moon -->
+  <circle cx="400" cy="80" r="30" fill="#ccccff" opacity="0.7" />
+  <circle cx="390" cy="70" r="10" fill="#ffffff" opacity="0.3" />
+  
+  <!-- Energy Core in the distance -->
+  <g transform="translate(250, 140)" filter="url(#glow)">
+    <circle cx="0" cy="0" r="20" fill="url(#energyCore)" opacity="0.9" />
+    <circle cx="0" cy="0" r="30" fill="url(#energyCore)" opacity="0.3" />
+    <circle cx="0" cy="0" r="40" fill="url(#energyCore)" opacity="0.1" />
+  </g>
+  
+  <!-- Flying vehicles -->
+  <g filter="url(#neonGlow)">
+    <!-- Vehicle 1 -->
+    <ellipse cx="100" cy="150" rx="15" ry="5" fill="#333355" />
+    <rect x="95" y="145" width="10" height="5" fill="#444466" />
+    <ellipse cx="100" cy="150" rx="2" ry="1" fill="url(#neonBlue)" opacity="0.8" />
+    <path d="M115,150 L120,148 L120,152 L115,150" fill="#444466" />
+    
+    <!-- Vehicle 2 -->
+    <ellipse cx="350" cy="180" rx="18" ry="6" fill="#333355" />
+    <rect x="342" y="174" width="16" height="6" fill="#444466" />
+    <ellipse cx="350" cy="180" rx="3" ry="1.5" fill="url(#neonPink)" opacity="0.8" />
+    <path d="M368,180 L375,177 L375,183 L368,180" fill="#444466" />
+    
+    <!-- Vehicle 3 -->
+    <ellipse cx="200" cy="120" rx="12" ry="4" fill="#333355" />
+    <rect x="196" y="116" width="8" height="4" fill="#444466" />
+    <ellipse cx="200" cy="120" rx="2" ry="1" fill="url(#neonGreen)" opacity="0.8" />
+    <path d="M212,120 L216,118 L216,122 L212,120" fill="#444466" />
+    
+    <!-- Vehicle 4 -->
+    <ellipse cx="420" cy="200" rx="14" ry="5" fill="#333355" />
+    <rect x="414" y="195" width="12" height="5" fill="#444466" />
+    <ellipse cx="420" cy="200" rx="2" ry="1" fill="url(#neonPurple)" opacity="0.8" />
+    <path d="M434,200 L440,197 L440,203 L434,200" fill="#444466" />
+    
+    <!-- Vehicle 5 -->
+    <ellipse cx="150" cy="220" rx="16" ry="5" fill="#333355" />
+    <rect x="144" y="215" width="12" height="5" fill="#444466" />
+    <ellipse cx="150" cy="220" rx="2" ry="1" fill="url(#neonBlue)" opacity="0.8" />
+    <path d="M166,220 L172,217 L172,223 L166,220" fill="#444466" />
+  </g>
+  
+  <!-- Main buildings -->
+  <g>
+    <!-- Tallest central building -->
+    <rect x="230" y="160" width="40" height="340" fill="url(#buildingGradient2)" />
+    <rect x="240" y="140" width="20" height="20" fill="url(#buildingGradient2)" />
+    <rect x="245" y="120" width="10" height="20" fill="url(#buildingGradient2)" />
+    
+    <!-- Antenna -->
+    <line x1="250" y1="120" x2="250" y2="90" stroke="url(#neonBlue)" stroke-width="2" filter="url(#neonGlow)" />
+    <circle cx="250" cy="90" r="3" fill="url(#neonBlue)" filter="url(#neonGlow)" />
+    
+    <!-- Windows -->
+    <rect x="235" y="170" width="30" height="320" fill="url(#windowGrid)" opacity="0.6" />
+    
+    <!-- Neon outline -->
+    <rect x="230" y="160" width="40" height="340" fill="none" stroke="url(#neonBlue)" stroke-width="1" filter="url(#neonGlow)" />
+    
+    <!-- Building 2 -->
+    <rect x="180" y="200" width="35" height="300" fill="url(#buildingGradient1)" />
+    <rect x="180" y="200" width="35" height="300" fill="none" stroke="url(#neonPink)" stroke-width="1" filter="url(#neonGlow)" />
+    <rect x="185" y="210" width="25" height="280" fill="url(#windowGrid)" opacity="0.5" />
+    
+    <!-- Building 3 -->
+    <rect x="285" y="220" width="30" height="280" fill="url(#buildingGradient1)" />
+    <rect x="285" y="220" width="30" height="280" fill="none" stroke="url(#neonGreen)" stroke-width="1" filter="url(#neonGlow)" />
+    <rect x="290" y="230" width="20" height="260" fill="url(#windowGrid)" opacity="0.5" />
+    
+    <!-- Building 4 -->
+    <rect x="130" y="250" width="35" height="250" fill="url(#buildingGradient2)" />
+    <rect x="130" y="250" width="35" height="250" fill="none" stroke="url(#neonPurple)" stroke-width="1" filter="url(#neonGlow)" />
+    <rect x="135" y="260" width="25" height="230" fill="url(#windowGrid)" opacity="0.6" />
+    
+    <!-- Building 5 -->
+    <rect x="330" y="230" width="40" height="270" fill="url(#buildingGradient2)" />
+    <rect x="330" y="230" width="40" height="270" fill="none" stroke="url(#neonBlue)" stroke-width="1" filter="url(#neonGlow)" />
+    <rect x="335" y="240" width="30" height="250" fill="url(#windowGrid)" opacity="0.6" />
+    
+    <!-- Building 6 -->
+    <rect x="80" y="280" width="35" height="220" fill="url(#buildingGradient1)" />
+    <rect x="80" y="280" width="35" height="220" fill="none" stroke="url(#neonGreen)" stroke-width="1" filter="url(#neonGlow)" />
+    <rect x="85" y="290" width="25" height="200" fill="url(#windowGrid)" opacity="0.5" />
+    
+    <!-- Building 7 -->
+    <rect x="385" y="260" width="45" height="240" fill="url(#buildingGradient1)" />
+    <rect x="385" y="260" width="45" height="240" fill="none" stroke="url(#neonPink)" stroke-width="1" filter="url(#neonGlow)" />
+    <rect x="390" y="270" width="35" height="220" fill="url(#windowGrid)" opacity="0.5" />
+    
+    <!-- Shorter buildings in front -->
+    <rect x="30" y="320" width="35" height="180" fill="url(#buildingGradient1)" />
+    <rect x="30" y="320" width="35" height="180" fill="none" stroke="url(#neonPurple)" stroke-width="1" filter="url(#neonGlow)" />
+    
+    <rect x="440" y="300" width="40" height="200" fill="url(#buildingGradient2)" />
+    <rect x="440" y="300" width="40" height="200" fill="none" stroke="url(#neonGreen)" stroke-width="1" filter="url(#neonGlow)" />
+  </g>
+  
+  <!-- Bridges connecting buildings -->
+  <g>
+    <rect x="215" y="240" width="15" height="5" fill="url(#neonPink)" filter="url(#neonGlow)" />
+    <rect x="270" y="260" width="15" height="5" fill="url(#neonBlue)" filter="url(#neonGlow)" />
+    <rect x="165" y="280" width="15" height="5" fill="url(#neonPurple)" filter="url(#neonGlow)" />
+    <rect x="315" y="260" width="15" height="5" fill="url(#neonGreen)" filter="url(#neonGlow)" />
+  </g>
+  
+  <!-- Foreground details -->
+  <g>
+    <!-- Landing pad on building -->
+    <circle cx="405" cy="260" r="15" fill="#333333" />
+    <circle cx="405" cy="260" r="12" fill="none" stroke="url(#neonPurple)" stroke-width="1" filter="url(#neonGlow)" />
+    <circle cx="405" cy="260" r="5" fill="url(#neonPurple)" opacity="0.5" filter="url(#neonGlow)" />
+    
+    <!-- Energy transfer lines -->
+    <line x1="250" y1="140" x2="250" y2="160" stroke="url(#energyCore)" stroke-width="3" filter="url(#glow)" />
+    <line x1="250" y1="140" x2="220" y2="200" stroke="url(#energyCore)" stroke-width="2" filter="url(#glow)" />
+    <line x1="250" y1="140" x2="280" y2="220" stroke="url(#energyCore)" stroke-width="2" filter="url(#glow)" />
+  </g>
+  
+  <!-- Holographic billboard -->
+  <g transform="translate(100, 220)" filter="url(#softShadow)">
+    <rect x="-15" y="-10" width="30" height="20" fill="#333355" opacity="0.7" />
+    <rect x="-12" y="-7" width="24" height="14" fill="url(#neonBlue)" opacity="0.3" />
+    <line x1="-10" y1="-5" x2="10" y2="-5" stroke="url(#neonBlue)" stroke-width="1" opacity="0.9" />
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="url(#neonBlue)" stroke-width="1" opacity="0.9" />
+    <line x1="-10" y1="5" x2="5" y2="5" stroke="url(#neonBlue)" stroke-width="1" opacity="0.9" />
+  </g>
+  
+  <g transform="translate(340, 190)" filter="url(#softShadow)">
+    <rect x="-20" y="-15" width="40" height="30" fill="#333355" opacity="0.7" />
+    <rect x="-17" y="-12" width="34" height="24" fill="url(#neonPink)" opacity="0.3" />
+    <line x1="-15" y1="-10" x2="15" y2="-10" stroke="url(#neonPink)" stroke-width="1" opacity="0.9" />
+    <line x1="-15" y1="-5" x2="15" y2="-5" stroke="url(#neonPink)" stroke-width="1" opacity="0.9" />
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="url(#neonPink)" stroke-width="1" opacity="0.9" />
+    <line x1="-15" y1="5" x2="15" y2="5" stroke="url(#neonPink)" stroke-width="1" opacity="0.9" />
+    <line x1="-15" y1="10" x2="10" y2="10" stroke="url(#neonPink)" stroke-width="1" opacity="0.9" />
+  </g>
+  
+  <!-- Ground level details -->
+  <rect x="0" y="490" width="500" height="10" fill="#0d0221" />
+  
+  <!-- Ground level lighting -->
+  <rect x="0" y="490" width="500" height="2" fill="url(#neonBlue)" opacity="0.6" filter="url(#neonGlow)" />
+  
+  <!-- Light beams from buildings -->
+  <g opacity="0.3" filter="url(#glow)">
+    <path d="M250,120 L230,50 L270,50 Z" fill="url(#neonBlue)" />
+    <path d="M405,260 L390,200 L420,200 Z" fill="url(#neonPurple)" />
+  </g>
+</svg> 

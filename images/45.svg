@@ -1,0 +1,192 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#050520" />
+  
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#bf00ff;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#00ffff;stop-opacity:0.7" />
+    </linearGradient>
+    
+    <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff00ff;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#00ffff;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:0.7" />
+    </linearGradient>
+    
+    <linearGradient id="particleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ffff;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Background interference pattern -->
+    <pattern id="interference" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="25" fill="#0b0b35" opacity="0.5" />
+    </pattern>
+  </defs>
+  
+  <!-- Background pattern -->
+  <rect width="500" height="500" fill="url(#interference)" />
+  
+  <!-- Quantum field grid -->
+  <g stroke="#161650" stroke-width="0.5" opacity="0.3">
+    <line x1="50" y1="0" x2="50" y2="500" />
+    <line x1="100" y1="0" x2="100" y2="500" />
+    <line x1="150" y1="0" x2="150" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="500" />
+    <line x1="250" y1="0" x2="250" y2="500" />
+    <line x1="300" y1="0" x2="300" y2="500" />
+    <line x1="350" y1="0" x2="350" y2="500" />
+    <line x1="400" y1="0" x2="400" y2="500" />
+    <line x1="450" y1="0" x2="450" y2="500" />
+    
+    <line x1="0" y1="50" x2="500" y2="50" />
+    <line x1="0" y1="100" x2="500" y2="100" />
+    <line x1="0" y1="150" x2="500" y2="150" />
+    <line x1="0" y1="200" x2="500" y2="200" />
+    <line x1="0" y1="250" x2="500" y2="250" />
+    <line x1="0" y1="300" x2="500" y2="300" />
+    <line x1="0" y1="350" x2="500" y2="350" />
+    <line x1="0" y1="400" x2="500" y2="400" />
+    <line x1="0" y1="450" x2="500" y2="450" />
+  </g>
+  
+  <!-- Wave functions -->
+  <g fill="none" stroke-width="2" filter="url(#glow)">
+    <!-- Wave 1 -->
+    <path d="M 0,250 
+             C 20,200 40,150 60,180 
+             C 80,210 100,270 120,290 
+             C 140,310 160,300 180,270 
+             C 200,240 220,190 240,170 
+             C 260,150 280,160 300,180 
+             C 320,200 340,230 360,240 
+             C 380,250 400,230 420,200 
+             C 440,170 460,150 480,170 
+             C 500,190 520,220 540,250" 
+          stroke="url(#waveGradient1)" />
+    
+    <!-- Wave 2 -->
+    <path d="M 0,350 
+             C 20,320 40,290 60,300 
+             C 80,310 100,330 120,340 
+             C 140,350 160,345 180,330 
+             C 200,315 220,290 240,280 
+             C 260,270 280,275 300,285 
+             C 320,295 340,310 360,315 
+             C 380,320 400,310 420,295 
+             C 440,280 460,270 480,280 
+             C 500,290 520,305 540,320" 
+          stroke="url(#waveGradient2)" />
+    
+    <!-- Wave 3 -->
+    <path d="M 0,150 
+             C 20,170 40,190 60,180 
+             C 80,170 100,150 120,140 
+             C 140,130 160,135 180,150 
+             C 200,165 220,190 240,200 
+             C 260,210 280,205 300,195 
+             C 320,185 340,170 360,165 
+             C 380,160 400,170 420,185 
+             C 440,200 460,210 480,200 
+             C 500,190 520,175 540,160" 
+          stroke="url(#waveGradient1)" />
+  </g>
+  
+  <!-- Probability clouds -->
+  <g opacity="0.4">
+    <ellipse cx="120" cy="290" rx="40" ry="20" fill="#00ffff" filter="url(#glow)" />
+    <ellipse cx="240" cy="170" rx="35" ry="25" fill="#bf00ff" filter="url(#glow)" />
+    <ellipse cx="360" cy="240" rx="30" ry="20" fill="#00ffff" filter="url(#glow)" />
+    <ellipse cx="120" cy="140" rx="25" ry="15" fill="#bf00ff" filter="url(#glow)" />
+    <ellipse cx="300" cy="195" rx="25" ry="15" fill="#00ffff" filter="url(#glow)" />
+  </g>
+  
+  <!-- Particle representations -->
+  <g filter="url(#glow)">
+    <!-- Main particles -->
+    <circle cx="120" cy="290" r="8" fill="url(#particleGradient)" />
+    <circle cx="240" cy="170" r="8" fill="url(#particleGradient)" />
+    <circle cx="360" cy="240" r="8" fill="url(#particleGradient)" />
+    <circle cx="120" cy="140" r="8" fill="url(#particleGradient)" />
+    <circle cx="300" cy="195" r="8" fill="url(#particleGradient)" />
+    
+    <!-- Particle trails - creating a blurred effect -->
+    <circle cx="130" cy="285" r="4" fill="#ffffff" opacity="0.7" />
+    <circle cx="140" cy="280" r="3" fill="#ffffff" opacity="0.5" />
+    <circle cx="150" cy="275" r="2" fill="#ffffff" opacity="0.3" />
+    
+    <circle cx="230" cy="175" r="4" fill="#ffffff" opacity="0.7" />
+    <circle cx="220" cy="180" r="3" fill="#ffffff" opacity="0.5" />
+    <circle cx="210" cy="185" r="2" fill="#ffffff" opacity="0.3" />
+    
+    <circle cx="370" cy="245" r="4" fill="#ffffff" opacity="0.7" />
+    <circle cx="380" cy="250" r="3" fill="#ffffff" opacity="0.5" />
+    <circle cx="390" cy="255" r="2" fill="#ffffff" opacity="0.3" />
+    
+    <circle cx="130" cy="135" r="4" fill="#ffffff" opacity="0.7" />
+    <circle cx="140" cy="130" r="3" fill="#ffffff" opacity="0.5" />
+    <circle cx="150" cy="125" r="2" fill="#ffffff" opacity="0.3" />
+    
+    <circle cx="310" cy="190" r="4" fill="#ffffff" opacity="0.7" />
+    <circle cx="320" cy="185" r="3" fill="#ffffff" opacity="0.5" />
+    <circle cx="330" cy="180" r="2" fill="#ffffff" opacity="0.3" />
+  </g>
+  
+  <!-- Quantum entanglement representations -->
+  <g stroke="#ffffff" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.6">
+    <line x1="120" y1="290" x2="240" y2="170" />
+    <line x1="240" y1="170" x2="300" y2="195" />
+    <line x1="300" y1="195" x2="360" y2="240" />
+    <line x1="120" y1="140" x2="300" y2="195" />
+    <line x1="120" y1="290" x2="120" y2="140" />
+  </g>
+  
+  <!-- Small quantum particles -->
+  <g>
+    <circle cx="180" cy="220" r="3" fill="#ffffff" opacity="0.8" />
+    <circle cx="210" cy="260" r="2" fill="#ffffff" opacity="0.8" />
+    <circle cx="270" cy="210" r="3" fill="#ffffff" opacity="0.8" />
+    <circle cx="320" cy="150" r="2" fill="#ffffff" opacity="0.8" />
+    <circle cx="350" cy="280" r="3" fill="#ffffff" opacity="0.8" />
+    <circle cx="400" cy="220" r="2" fill="#ffffff" opacity="0.8" />
+    <circle cx="150" cy="330" r="3" fill="#ffffff" opacity="0.8" />
+    <circle cx="200" cy="120" r="2" fill="#ffffff" opacity="0.8" />
+    <circle cx="250" cy="330" r="3" fill="#ffffff" opacity="0.8" />
+    <circle cx="290" cy="260" r="2" fill="#ffffff" opacity="0.8" />
+    <circle cx="310" cy="120" r="3" fill="#ffffff" opacity="0.8" />
+    <circle cx="390" cy="300" r="2" fill="#ffffff" opacity="0.8" />
+    <circle cx="420" cy="150" r="3" fill="#ffffff" opacity="0.8" />
+    <circle cx="90" cy="220" r="2" fill="#ffffff" opacity="0.8" />
+    <circle cx="60" cy="300" r="3" fill="#ffffff" opacity="0.8" />
+  </g>
+  
+  <!-- Uncertainty principle visualization -->
+  <g transform="translate(250, 400)">
+    <ellipse cx="0" cy="0" rx="60" ry="20" fill="none" stroke="#ff00ff" stroke-width="1" opacity="0.5" />
+    <ellipse cx="0" cy="0" rx="20" ry="60" fill="none" stroke="#00ffff" stroke-width="1" opacity="0.5" />
+  </g>
+  
+  <!-- Wave-particle duality visualization -->
+  <g transform="translate(400, 100)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.3" />
+    <path d="M -30,0 C -20,10 -10,-10 0,0 C 10,10 20,-10 30,0" 
+          fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5" />
+  </g>
+  
+  <!-- Particle spin visualization -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.3" />
+    <path d="M 0,-25 A 25,25 0 0,1 25,0 A 25,25 0 0,1 0,25 A 25,25 0 0,1 -25,0 A 25,25 0 0,1 0,-25" 
+          fill="none" stroke="#ff00ff" stroke-width="1.5" opacity="0.5" 
+          stroke-dasharray="5,5" />
+    <path d="M 0,0 L 0,-25" stroke="#ffffff" stroke-width="1" opacity="0.5" />
+  </g>
+</svg> 

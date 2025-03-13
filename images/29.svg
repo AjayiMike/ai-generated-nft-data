@@ -1,0 +1,106 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#1c1c1c" />
+  
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <linearGradient id="ethGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#627eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3c5be8;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="btcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7931a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d87b08;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="dogeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d5b45b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c19e3c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circuit pattern -->
+  <g stroke="#333333" stroke-width="1" fill="none">
+    <path d="M0,100 L500,100" />
+    <path d="M0,200 L500,200" />
+    <path d="M0,300 L500,300" />
+    <path d="M0,400 L500,400" />
+    
+    <path d="M100,0 L100,500" />
+    <path d="M200,0 L200,500" />
+    <path d="M300,0 L300,500" />
+    <path d="M400,0 L400,500" />
+    
+    <circle cx="100" cy="100" r="10" />
+    <circle cx="100" cy="200" r="10" />
+    <circle cx="100" cy="300" r="10" />
+    <circle cx="100" cy="400" r="10" />
+    
+    <circle cx="200" cy="100" r="10" />
+    <circle cx="200" cy="200" r="10" />
+    <circle cx="200" cy="300" r="10" />
+    <circle cx="200" cy="400" r="10" />
+    
+    <circle cx="300" cy="100" r="10" />
+    <circle cx="300" cy="200" r="10" />
+    <circle cx="300" cy="300" r="10" />
+    <circle cx="300" cy="400" r="10" />
+    
+    <circle cx="400" cy="100" r="10" />
+    <circle cx="400" cy="200" r="10" />
+    <circle cx="400" cy="300" r="10" />
+    <circle cx="400" cy="400" r="10" />
+  </g>
+  
+  <!-- Ethereum Symbol -->
+  <g transform="translate(150, 150) scale(0.8)" filter="url(#glow)">
+    <circle cx="0" cy="0" r="70" fill="url(#ethGradient)" />
+    <path d="M0,-50 L40,10 L0,40 L-40,10 Z" fill="white" />
+    <path d="M0,40 L40,10 L0,70 L-40,10 Z" fill="white" opacity="0.8" />
+  </g>
+  
+  <!-- Bitcoin Symbol -->
+  <g transform="translate(350, 150) scale(0.8)" filter="url(#glow)">
+    <circle cx="0" cy="0" r="70" fill="url(#btcGradient)" />
+    <path d="M0,-30 L15,-30 A30,30 0 0,1 15,30 L-15,30 A30,30 0 0,1 -15,-30 Z" fill="white" />
+    <path d="M-5,-20 L5,-20 L5,20 L-5,20 Z" fill="url(#btcGradient)" />
+    <path d="M-20,0 L20,0" stroke="white" stroke-width="5" />
+    <path d="M-20,-15 L20,-15" stroke="white" stroke-width="5" />
+    <path d="M-20,15 L20,15" stroke="white" stroke-width="5" />
+    <path d="M15,-35 L15,-25 M15,25 L15,35 M-15,-35 L-15,-25 M-15,25 L-15,35" stroke="white" stroke-width="5" />
+  </g>
+  
+  <!-- Doge Symbol -->
+  <g transform="translate(250, 350) scale(0.8)" filter="url(#glow)">
+    <circle cx="0" cy="0" r="70" fill="url(#dogeGradient)" />
+    <text x="-30" y="15" font-family="Arial" font-size="60" font-weight="bold" fill="white">D</text>
+  </g>
+  
+  <!-- Price Chart Lines -->
+  <g transform="translate(50, 450) scale(0.9)" stroke-width="3" fill="none">
+    <path d="M0,0 L20,-20 L40,-10 L60,-40 L80,-30 L100,-50 L120,-45 L140,-60 L160,-55 L180,-70 L200,-65 L220,-85 L240,-75 L260,-90 L280,-85 L300,-100 L320,-90 L340,-110 L360,-100 L380,-120 L400,-110" stroke="#627eea" />
+    
+    <path d="M0,-30 L20,-40 L40,-35 L60,-55 L80,-50 L100,-65 L120,-60 L140,-80 L160,-70 L180,-90 L200,-85 L220,-100 L240,-90 L260,-110 L280,-100 L300,-120 L320,-115 L340,-130 L360,-125 L380,-140 L400,-130" stroke="#f7931a" />
+    
+    <path d="M0,-60 L20,-50 L40,-70 L60,-65 L80,-85 L100,-80 L120,-95 L140,-90 L160,-110 L180,-105 L200,-120 L220,-110 L240,-130 L260,-125 L280,-140 L300,-135 L320,-150 L340,-145 L360,-160 L380,-155 L400,-170" stroke="#d5b45b" />
+  </g>
+  
+  <!-- Decorative Binary -->
+  <g fill="#444444" font-family="monospace" font-size="10">
+    <text x="20" y="30">01010111</text>
+    <text x="20" y="50">10101010</text>
+    <text x="20" y="70">01011011</text>
+    
+    <text x="420" y="30">10101110</text>
+    <text x="420" y="50">01010101</text>
+    <text x="420" y="70">10110101</text>
+    
+    <text x="20" y="430">10100111</text>
+    <text x="20" y="450">01101010</text>
+    <text x="20" y="470">10010111</text>
+  </g>
+</svg> 

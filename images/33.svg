@@ -1,0 +1,122 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Night sky background with gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000033;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#000022;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000011;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Aurora colors -->
+    <linearGradient id="aurora1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:0.5" />
+      <stop offset="50%" style="stop-color:#00ffaa;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#00ff66;stop-opacity:0.5" />
+    </linearGradient>
+    
+    <linearGradient id="aurora2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ccff;stop-opacity:0.5" />
+      <stop offset="50%" style="stop-color:#0099ff;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#00ccff;stop-opacity:0.5" />
+    </linearGradient>
+    
+    <linearGradient id="aurora3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff00ff;stop-opacity:0.5" />
+      <stop offset="50%" style="stop-color:#cc00ff;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:0.5" />
+    </linearGradient>
+    
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="500" height="500" fill="url(#skyGradient)" />
+  
+  <!-- Stars -->
+  <g fill="#ffffff">
+    <!-- Small stars -->
+    <circle cx="50" cy="30" r="1" />
+    <circle cx="120" cy="45" r="1" />
+    <circle cx="200" cy="20" r="1" />
+    <circle cx="280" cy="50" r="1" />
+    <circle cx="350" cy="35" r="1" />
+    <circle cx="430" cy="25" r="1" />
+    <circle cx="470" cy="40" r="1" />
+    
+    <circle cx="30" cy="80" r="1" />
+    <circle cx="90" cy="100" r="1" />
+    <circle cx="150" cy="70" r="1" />
+    <circle cx="230" cy="90" r="1" />
+    <circle cx="300" cy="60" r="1" />
+    <circle cx="380" cy="95" r="1" />
+    <circle cx="450" cy="85" r="1" />
+    
+    <circle cx="70" cy="150" r="1" />
+    <circle cx="140" cy="130" r="1" />
+    <circle cx="220" cy="160" r="1" />
+    <circle cx="290" cy="140" r="1" />
+    <circle cx="370" cy="170" r="1" />
+    <circle cx="420" cy="150" r="1" />
+    <circle cx="480" cy="165" r="1" />
+    
+    <!-- Medium stars -->
+    <circle cx="60" cy="50" r="1.5" />
+    <circle cx="180" cy="40" r="1.5" />
+    <circle cx="320" cy="30" r="1.5" />
+    <circle cx="400" cy="70" r="1.5" />
+    <circle cx="100" cy="120" r="1.5" />
+    <circle cx="250" cy="110" r="1.5" />
+    <circle cx="350" cy="130" r="1.5" />
+    <circle cx="450" cy="60" r="1.5" />
+    
+    <!-- Large stars/distant planets -->
+    <circle cx="120" cy="20" r="2.5" />
+    <circle cx="350" cy="80" r="2.5" />
+    <circle cx="450" cy="130" r="2.5" />
+    <circle cx="200" cy="70" r="2.5" />
+  </g>
+  
+  <!-- Aurora borealis waves -->
+  <g filter="url(#glow)">
+    <!-- Green aurora wave -->
+    <path d="M0,200 C50,190 100,150 150,170 C200,190 250,170 300,150 C350,130 400,150 450,160 C500,170 550,160 600,150"
+          fill="none" stroke="url(#aurora1)" stroke-width="40" opacity="0.8" />
+    
+    <!-- Blue aurora wave -->
+    <path d="M0,250 C40,230 80,250 120,240 C160,230 200,210 240,220 C280,230 320,250 360,230 C400,210 440,230 480,220 C520,210 560,230 600,240"
+          fill="none" stroke="url(#aurora2)" stroke-width="30" opacity="0.7" />
+    
+    <!-- Purple aurora wave -->
+    <path d="M0,300 C60,320 120,290 180,310 C240,330 300,300 360,320 C420,340 480,310 540,330 C600,350 660,320 720,340"
+          fill="none" stroke="url(#aurora3)" stroke-width="35" opacity="0.6" />
+  </g>
+  
+  <!-- Mountain silhouettes -->
+  <polygon points="0,500 0,380 50,400 100,350 150,390 200,360 250,400 300,370 350,410 400,350 450,380 500,360 500,500" 
+           fill="#000000" />
+  
+  <polygon points="0,500 0,420 30,410 60,430 100,390 130,410 170,400 200,420 230,390 270,430 310,410 350,420 400,380 450,410 500,390 500,500" 
+           fill="#000000" opacity="0.8" />
+  
+  <!-- Reflection on water -->
+  <g opacity="0.3">
+    <!-- Green aurora reflection -->
+    <path d="M0,600 C50,610 100,650 150,630 C200,610 250,630 300,650 C350,670 400,650 450,640 C500,630 550,640 600,650"
+          fill="none" stroke="url(#aurora1)" stroke-width="20" opacity="0.4"
+          transform="scale(1,-0.3) translate(0, -1800)" />
+    
+    <!-- Blue aurora reflection -->
+    <path d="M0,550 C40,570 80,550 120,560 C160,570 200,590 240,580 C280,570 320,550 360,570 C400,590 440,570 480,580 C520,590 560,570 600,560"
+          fill="none" stroke="url(#aurora2)" stroke-width="15" opacity="0.3"
+          transform="scale(1,-0.3) translate(0, -1850)" />
+    
+    <!-- Purple aurora reflection -->
+    <path d="M0,500 C60,480 120,510 180,490 C240,470 300,500 360,480 C420,460 480,490 540,470 C600,450 660,480 720,460"
+          fill="none" stroke="url(#aurora3)" stroke-width="18" opacity="0.3"
+          transform="scale(1,-0.3) translate(0, -1900)" />
+  </g>
+</svg> 

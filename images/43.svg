@@ -1,0 +1,199 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f8f5f0" />
+  
+  <!-- Defining the watercolor textures and effects -->
+  <defs>
+    <!-- Watercolor filter for textures -->
+    <filter id="watercolorTexture" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+    
+    <!-- Blue watercolor wash -->
+    <linearGradient id="blueWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a6c1ee" />
+      <stop offset="50%" stop-color="#7da1e8" />
+      <stop offset="100%" stop-color="#5681e0" />
+    </linearGradient>
+    
+    <!-- Green watercolor wash -->
+    <linearGradient id="greenWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8daa8" />
+      <stop offset="50%" stop-color="#8bc98c" />
+      <stop offset="100%" stop-color="#6db76e" />
+    </linearGradient>
+    
+    <!-- Yellow watercolor wash -->
+    <linearGradient id="yellowWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9eaa7" />
+      <stop offset="50%" stop-color="#f5df7c" />
+      <stop offset="100%" stop-color="#f1d453" />
+    </linearGradient>
+    
+    <!-- Purple watercolor wash -->
+    <linearGradient id="purpleWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d1a1e3" />
+      <stop offset="50%" stop-color="#be82d7" />
+      <stop offset="100%" stop-color="#ac62cc" />
+    </linearGradient>
+    
+    <!-- Pink watercolor wash -->
+    <linearGradient id="pinkWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffc0cb" />
+      <stop offset="50%" stop-color="#ffaab5" />
+      <stop offset="100%" stop-color="#ff8ba0" />
+    </linearGradient>
+    
+    <!-- Watercolor splatter masks -->
+    <mask id="splatterMask1">
+      <rect width="500" height="500" fill="white" />
+      <g fill="black">
+        <circle cx="100" cy="100" r="20" />
+        <circle cx="150" cy="80" r="15" />
+        <circle cx="120" cy="120" r="25" />
+        <circle cx="90" cy="70" r="10" />
+        <circle cx="170" cy="110" r="18" />
+      </g>
+    </mask>
+    
+    <mask id="splatterMask2">
+      <rect width="500" height="500" fill="white" />
+      <g fill="black">
+        <circle cx="400" cy="200" r="25" />
+        <circle cx="350" cy="180" r="20" />
+        <circle cx="420" cy="220" r="30" />
+        <circle cx="380" cy="170" r="15" />
+        <circle cx="430" cy="190" r="22" />
+      </g>
+    </mask>
+    
+    <mask id="splatterMask3">
+      <rect width="500" height="500" fill="white" />
+      <g fill="black">
+        <circle cx="200" cy="420" r="25" />
+        <circle cx="250" cy="380" r="20" />
+        <circle cx="180" cy="400" r="30" />
+        <circle cx="220" cy="370" r="15" />
+        <circle cx="170" cy="410" r="22" />
+      </g>
+    </mask>
+  </defs>
+  
+  <!-- Sky - watercolor layer -->
+  <path d="M0,0 L500,0 L500,200 C450,180 400,210 350,190 C300,170 250,190 200,180 C150,170 100,190 50,180 C0,170 0,200 0,200 Z" 
+        fill="url(#blueWash)" opacity="0.8" filter="url(#watercolorTexture)" />
+  
+  <!-- Sun/moon watercolor effect -->
+  <circle cx="400" cy="80" r="50" fill="url(#yellowWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+  
+  <!-- Distant mountains -->
+  <path d="M0,150 C50,120 100,140 150,110 C200,90 250,120 300,100 C350,80 400,110 450,90 C500,70 500,200 500,200 L0,200 Z" 
+        fill="url(#purpleWash)" opacity="0.6" filter="url(#watercolorTexture)" />
+  
+  <!-- Mid hills -->
+  <path d="M0,180 C60,160 120,190 180,170 C240,150 300,180 360,160 C420,140 480,170 500,150 L500,280 L0,280 Z"
+        fill="url(#greenWash)" opacity="0.7" filter="url(#watercolorTexture)" />
+  
+  <!-- Foreground landscape -->
+  <path d="M0,250 C80,230 160,260 240,240 C320,220 400,260 500,240 L500,500 L0,500 Z"
+        fill="url(#greenWash)" opacity="0.8" filter="url(#watercolorTexture)" />
+  
+  <!-- Watercolor lake -->
+  <path d="M100,300 C150,290 200,310 250,300 C300,290 350,310 400,300 C450,290 450,400 400,410 C350,420 300,400 250,410 C200,420 150,400 100,410 C50,420 50,310 100,300 Z"
+        fill="url(#blueWash)" opacity="0.7" filter="url(#watercolorTexture)" />
+  
+  <!-- Abstract trees -->
+  <g>
+    <!-- Tree 1 -->
+    <path d="M120,260 C110,230 130,210 120,180 C110,150 130,130 120,110 L120,260 Z"
+          fill="#5a3921" opacity="0.8" filter="url(#watercolorTexture)" />
+    <circle cx="120" cy="110" r="30" fill="url(#greenWash)" opacity="0.8" filter="url(#watercolorTexture)" />
+    
+    <!-- Tree 2 -->
+    <path d="M220,280 C210,250 230,230 220,200 C210,170 230,150 220,130 L220,280 Z"
+          fill="#5a3921" opacity="0.8" filter="url(#watercolorTexture)" />
+    <circle cx="220" cy="130" r="40" fill="url(#greenWash)" opacity="0.8" filter="url(#watercolorTexture)" />
+    
+    <!-- Tree 3 -->
+    <path d="M320,270 C310,240 330,220 320,190 C310,160 330,140 320,120 L320,270 Z"
+          fill="#5a3921" opacity="0.8" filter="url(#watercolorTexture)" />
+    <circle cx="320" cy="120" r="35" fill="url(#greenWash)" opacity="0.8" filter="url(#watercolorTexture)" />
+    
+    <!-- Tree 4 -->
+    <path d="M420,290 C410,260 430,240 420,210 C410,180 430,160 420,140 L420,290 Z"
+          fill="#5a3921" opacity="0.8" filter="url(#watercolorTexture)" />
+    <circle cx="420" cy="140" r="38" fill="url(#greenWash)" opacity="0.8" filter="url(#watercolorTexture)" />
+  </g>
+  
+  <!-- Watercolor flowers in foreground -->
+  <g>
+    <!-- Flower cluster 1 -->
+    <circle cx="150" cy="350" r="8" fill="url(#pinkWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="160" cy="340" r="6" fill="url(#purpleWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="170" cy="355" r="7" fill="url(#pinkWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="145" cy="360" r="5" fill="url(#yellowWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    
+    <!-- Flower cluster 2 -->
+    <circle cx="350" cy="360" r="7" fill="url(#pinkWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="360" cy="350" r="5" fill="url(#purpleWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="370" cy="365" r="6" fill="url(#pinkWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="345" cy="370" r="4" fill="url(#yellowWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    
+    <!-- Flower cluster 3 -->
+    <circle cx="250" cy="380" r="9" fill="url(#pinkWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="260" cy="370" r="7" fill="url(#purpleWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="270" cy="385" r="8" fill="url(#pinkWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+    <circle cx="245" cy="390" r="6" fill="url(#yellowWash)" opacity="0.9" filter="url(#watercolorTexture)" />
+  </g>
+  
+  <!-- Watercolor texture overlays -->
+  <rect width="500" height="500" fill="url(#purpleWash)" opacity="0.1" filter="url(#watercolorTexture)" mask="url(#splatterMask1)" />
+  <rect width="500" height="500" fill="url(#pinkWash)" opacity="0.1" filter="url(#watercolorTexture)" mask="url(#splatterMask2)" />
+  <rect width="500" height="500" fill="url(#yellowWash)" opacity="0.1" filter="url(#watercolorTexture)" mask="url(#splatterMask3)" />
+  
+  <!-- Watercolor splatters -->
+  <g opacity="0.4" filter="url(#watercolorTexture)">
+    <circle cx="80" cy="80" r="5" fill="#7da1e8" />
+    <circle cx="180" cy="60" r="4" fill="#8bc98c" />
+    <circle cx="280" cy="90" r="6" fill="#f5df7c" />
+    <circle cx="380" cy="70" r="4" fill="#be82d7" />
+    <circle cx="430" cy="100" r="5" fill="#ffaab5" />
+    
+    <circle cx="60" cy="180" r="4" fill="#be82d7" />
+    <circle cx="120" cy="220" r="6" fill="#7da1e8" />
+    <circle cx="220" cy="180" r="5" fill="#f5df7c" />
+    <circle cx="320" cy="230" r="4" fill="#8bc98c" />
+    <circle cx="420" cy="190" r="6" fill="#ffaab5" />
+    
+    <circle cx="90" cy="330" r="5" fill="#8bc98c" />
+    <circle cx="190" cy="310" r="4" fill="#be82d7" />
+    <circle cx="290" cy="340" r="6" fill="#ffaab5" />
+    <circle cx="390" cy="320" r="5" fill="#7da1e8" />
+    <circle cx="440" cy="350" r="4" fill="#f5df7c" />
+    
+    <circle cx="70" cy="420" r="6" fill="#f5df7c" />
+    <circle cx="170" cy="450" r="5" fill="#7da1e8" />
+    <circle cx="270" cy="430" r="4" fill="#ffaab5" />
+    <circle cx="370" cy="460" r="6" fill="#8bc98c" />
+    <circle cx="430" cy="440" r="5" fill="#be82d7" />
+  </g>
+  
+  <!-- Soft watercolor paper texture overlay -->
+  <rect width="500" height="500" fill="#f8f5f0" opacity="0.05" filter="url(#watercolorTexture)" />
+  
+  <!-- Delicate ink lines for detail -->
+  <g stroke="#555555" stroke-width="0.5" opacity="0.3" fill="none">
+    <!-- Horizon line -->
+    <path d="M0,200 C100,190 200,210 300,190 C400,180 500,200 500,200" />
+    
+    <!-- Lake outline -->
+    <path d="M100,300 C150,290 200,310 250,300 C300,290 350,310 400,300 C450,290 450,400 400,410 C350,420 300,400 250,410 C200,420 150,400 100,410 C50,420 50,310 100,300 Z" />
+    
+    <!-- Tree details -->
+    <line x1="120" y1="110" x2="120" y2="260" />
+    <line x1="220" y1="130" x2="220" y2="280" />
+    <line x1="320" y1="120" x2="320" y2="270" />
+    <line x1="420" y1="140" x2="420" y2="290" />
+  </g>
+</svg> 
